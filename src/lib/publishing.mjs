@@ -3,10 +3,26 @@ export function definitiveOrigin(env = process.env) {
   if (!value) return undefined;
   try {
     const url = new URL(value);
-    if (url.protocol !== 'https:' || /(^|\.)(vercel\.app|localhost)$/.test(url.hostname) || url.hostname === '127.0.0.1' || url.pathname !== '/' || url.search || url.hash || url.username || url.password) return undefined;
+    if (
+      url.protocol !== "https:" ||
+      /(^|\.)(vercel\.app|localhost)$/.test(url.hostname) ||
+      url.hostname === "127.0.0.1" ||
+      url.pathname !== "/" ||
+      url.search ||
+      url.hash ||
+      url.username ||
+      url.password
+    )
+      return undefined;
     return url.origin;
-  } catch { return undefined; }
+  } catch {
+    return undefined;
+  }
 }
 export function canIndex(env = process.env) {
-  return env.INDEXING_ENABLED === 'true' && !!definitiveOrigin(env) && env.VERCEL_ENV !== 'preview';
+  return (
+    env.INDEXING_ENABLED === "true" &&
+    !!definitiveOrigin(env) &&
+    env.VERCEL_ENV !== "preview"
+  );
 }

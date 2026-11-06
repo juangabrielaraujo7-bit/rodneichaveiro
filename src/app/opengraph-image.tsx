@@ -1,5 +1,66 @@
-import {ImageResponse} from 'next/og';
-export const alt='Rodnei Chaveiro — Freguesia do Ó. Atendimento 24 horas.';
-export const size={width:1200,height:630};
-export const contentType='image/png';
-export default function Image(){return new ImageResponse(<div style={{width:'100%',height:'100%',background:'#F7F5EC',display:'flex',flexDirection:'column',justifyContent:'space-between',padding:'64px 76px',color:'#1E1E22',fontFamily:'sans-serif'}}><div style={{display:'flex',alignItems:'center',gap:30}}><svg width="120" height="120" viewBox="0 0 400 400"><path d="M75 74 H232 C291 74 327 110 327 161 C327 209 303 241 257 253 L315 327 H238 L181 252 H160 V327 H93 V204 C93 173 116 153 152 153 H223 C244 153 255 162 255 179 C255 197 242 207 222 207 H164 V222 H231 C255 222 273 203 273 174 C273 148 257 131 228 131 H121 Z" fill="#1E1E22"/><path d="M197 235 C197 223 207 214 219 214 C231 214 241 223 241 235 C241 243 237 250 231 254 L241 289 H197 L207 254 C201 250 197 243 197 235 Z" fill="#B08A4A"/></svg><div style={{display:'flex',flexDirection:'column'}}><strong style={{fontSize:38,letterSpacing:5}}>RODNEI CHAVEIRO</strong><span style={{fontSize:20,letterSpacing:4,color:'#765C31'}}>FREGUESIA DO Ó</span></div></div><div style={{display:'flex',fontSize:65,lineHeight:1.1,letterSpacing:-2}}>Chaveiro na Freguesia do Ó<br/>com atendimento 24 horas.</div><div style={{display:'flex',justifyContent:'space-between',borderTop:'1px solid #CFCABE',paddingTop:24,fontSize:24}}><span>Residencial · Automotivo · Chaves codificadas</span><span>(11) 96087-7257</span></div></div>,size);}
+import { ImageResponse } from "next/og";
+export const alt = "Rodnei Chaveiro — Freguesia do Ó. Atendimento 24 horas.";
+export const size = { width: 1200, height: 630 };
+export const contentType = "image/png";
+export default function Image() {
+  return new ImageResponse(
+    <div
+      style={{
+        width: "100%",
+        height: "100%",
+        background: "#F7F5EC",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "space-between",
+        padding: "64px 76px",
+        color: "#1E1E22",
+        fontFamily: "sans-serif",
+      }}
+    >
+      <div style={{ display: "flex", alignItems: "center", gap: 30 }}>
+        <svg width="120" height="120" viewBox="0 0 400 400">
+          <path
+            d="M75 74 H232 C291 74 327 110 327 161 C327 209 303 241 257 253 L315 327 H238 L181 252 H160 V327 H93 V204 C93 173 116 153 152 153 H223 C244 153 255 162 255 179 C255 197 242 207 222 207 H164 V222 H231 C255 222 273 203 273 174 C273 148 257 131 228 131 H121 Z"
+            fill="#1E1E22"
+          />
+          <path
+            d="M197 235 C197 223 207 214 219 214 C231 214 241 223 241 235 C241 243 237 250 231 254 L241 289 H197 L207 254 C201 250 197 243 197 235 Z"
+            fill="#B08A4A"
+          />
+        </svg>
+        <div style={{ display: "flex", flexDirection: "column" }}>
+          <strong style={{ fontSize: 38, letterSpacing: 5 }}>
+            RODNEI CHAVEIRO
+          </strong>
+          <span style={{ fontSize: 20, letterSpacing: 4, color: "#765C31" }}>
+            FREGUESIA DO Ó
+          </span>
+        </div>
+      </div>
+      <div
+        style={{
+          display: "flex",
+          fontSize: 65,
+          lineHeight: 1.1,
+          letterSpacing: -2,
+        }}
+      >
+        Chaveiro na Freguesia do Ó<br />
+        com atendimento 24 horas.
+      </div>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          borderTop: "1px solid #CFCABE",
+          paddingTop: 24,
+          fontSize: 24,
+        }}
+      >
+        <span>Residencial · Automotivo · Chaves codificadas</span>
+        <span>(11) 96087-7257</span>
+      </div>
+    </div>,
+    size,
+  );
+}

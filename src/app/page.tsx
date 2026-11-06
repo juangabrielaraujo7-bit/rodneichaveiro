@@ -1,18 +1,326 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import {ArrowRight,ArrowUpRight,Check,MapPin,Clock3,MessageCircle} from 'lucide-react';
-import {ContactButtons,FaqList,FinalCta,ServiceCard} from '@/components/ui';
-import {company,homeFaq,regions,services} from '@/lib/content';
-export default function Home(){return <>
-  <section className="hero container"><div className="hero-copy"><h1>Chaveiro na<br className="desktop-break"/> Freguesia do Ó<br/><span>com atendimento<br className="desktop-break"/> 24 horas.</span></h1><p>Para a sua casa. Para o seu carro.<br/>Serviços de chaveiro com atendimento na Freguesia do Ó e bairros próximos.</p><ContactButtons/><div className="hero-note"><MapPin size={16} aria-hidden="true"/>Na Vila Albertina, perto de você.</div></div><div className="brand-panel"><div className="brand-panel-top"><span>RODNEI CHAVEIRO</span><span>São Paulo · SP</span></div><Image className="hero-symbol" src="/brand/simbolo-r-marfim.svg" alt="Monograma R do Rodnei Chaveiro, com detalhe de fechadura em latão" width={400} height={400} priority/><div className="brand-panel-bottom"><span>O cuidado começa<br/>no primeiro contato.</span><ArrowUpRight size={28} strokeWidth={1} aria-hidden="true"/></div><div className="availability"><Clock3 size={25} strokeWidth={1.4} aria-hidden="true"/><div><strong>Atendimento 24 horas</strong><span>Chame quando precisar.</span></div></div></div></section>
-  <div className="service-strip"><div className="container"><span><Check size={17} aria-hidden="true"/>Serviços residenciais</span><span><Check size={17} aria-hidden="true"/>Chaveiro automotivo</span><span><Check size={17} aria-hidden="true"/>Chaves codificadas</span><span><MapPin size={17} aria-hidden="true"/>Freguesia do Ó</span></div></div>
-  <section className="section container" id="servicos"><div className="section-heading"><h2>Uma solução para<br/>cada necessidade.</h2><p>Conheça os serviços e fale com o Rodnei<br className="desktop-break"/> para avaliar o seu caso.</p></div><div className="services-grid">{services.map((service,i)=><ServiceCard key={service.slug} service={service} featured={i===0}/>)}</div></section>
-  <section className="difference"><div className="container difference-grid"><div><h2>O seu chaveiro.<br/><span>Aqui na região.</span></h2><p>Um contato para os imprevistos e para os cuidados do dia a dia com suas chaves e fechaduras.</p><Link className="text-link" href="/sobre">Conheça o Rodnei <ArrowRight size={19} aria-hidden="true"/></Link></div><div className="reasons"><article><Clock3 size={26} strokeWidth={1.4} aria-hidden="true"/><div><h3>Atendimento 24 horas</h3><p>Entre em contato a qualquer hora para consultar o atendimento.</p></div></article><article><MapPin size={26} strokeWidth={1.4} aria-hidden="true"/><div><h3>Presença na Freguesia do Ó</h3><p>Endereço na Vila Albertina e atendimento nos bairros próximos.</p></div></article><article><MessageCircle size={26} strokeWidth={1.4} aria-hidden="true"/><div><h3>Conversa direta sobre o seu caso</h3><p>Explique o problema e consulte as possibilidades antes de combinar o serviço.</p></div></article></div></div></section>
-  <section className="section container social-section" id="trabalhos"><div><h2>Conheça o trabalho<br/>mais de perto.</h2><p>Acompanhe o perfil oficial do Rodnei e converse sobre o serviço de que você precisa.</p></div><a className="social-link" href={company.instagram} target="_blank" rel="noopener noreferrer"><span>Instagram oficial</span><strong>@rodnei_chaveiro</strong><ArrowUpRight size={27} aria-hidden="true"/></a></section>
-  <section className="about-home container"><div className="about-brand"><Image src="/brand/logo-vertical-grafite.svg" alt="Rodnei Chaveiro — Freguesia do Ó" width={360} height={360}/></div><div><h2>Chaves abrem portas.<br/>Confiança abre conversas.</h2><p>O Rodnei Chaveiro atende a Freguesia do Ó com serviços residenciais, automotivos, chaves codificadas e serviços tradicionais de chaveiro.</p><p>Na Rua Dr. Elviro Carrilho, em Vila Albertina, você encontra o contato para cuidar do acesso à sua casa e ao seu veículo.</p><Link href="/sobre" className="text-link">Sobre o Rodnei <ArrowRight size={18} aria-hidden="true"/></Link></div></section>
-  <section className="google-section container"><div><h2>Confira as avaliações<br/>no Google.</h2><p>Consulte o perfil da empresa e leia os relatos dos clientes diretamente na plataforma.</p></div><a href={company.maps} className="button button-outline" target="_blank" rel="noopener noreferrer" data-conversion="maps_click" data-source="reviews">Ver perfil no Google <ArrowUpRight size={18} aria-hidden="true"/></a></section>
-  <section className="regions-section"><div className="container regions-grid"><div><h2>Por perto,<br/>quando você precisa.</h2><p>Atendimento na Freguesia do Ó e nos bairros ao redor. Informe seu endereço para combinar o deslocamento.</p><Link href="/regioes-atendidas" className="text-link">Consultar regiões atendidas <ArrowRight size={19} aria-hidden="true"/></Link></div><ul className="region-list">{regions.map(region=><li key={region}><MapPin size={18} aria-hidden="true"/>{region}<Check size={16} aria-hidden="true"/></li>)}</ul></div></section>
-  <section className="section container location-grid" id="localizacao"><div><h2>Encontre o Rodnei.</h2><p className="location-address">{company.address}<br/>{company.district} · São Paulo, SP<br/>CEP {company.zip}</p><p>Vai até o endereço? Entre em contato<br/>antes de sair para combinar sua visita.</p><a href={company.maps} className="button button-dark" target="_blank" rel="noopener noreferrer" data-conversion="maps_click" data-source="location">Abrir rota no Google Maps <ArrowUpRight size={18} aria-hidden="true"/></a></div><div className="location-panel"><MapPin size={44} strokeWidth={1.2} aria-hidden="true"/><h3>Vila Albertina<br/><span>Freguesia do Ó</span></h3><div><span>Rua Dr. Elviro Carrilho</span><strong>309</strong></div><span className="location-city">São Paulo · SP</span></div></section>
-  <section className="faq-section container"><div><h2>Antes de chamar,<br/>tire suas dúvidas.</h2><p>Não encontrou sua resposta?<br/><Link href="/contato" className="text-link">Fale com o Rodnei <ArrowRight size={17} aria-hidden="true"/></Link></p></div><FaqList items={homeFaq}/></section>
-  <FinalCta/>
-  </>;}
+import Image from "next/image";
+import Link from "next/link";
+import {
+  ArrowRight,
+  ArrowUpRight,
+  Check,
+  MapPin,
+  Clock3,
+  MessageCircle,
+} from "lucide-react";
+import {
+  ContactButtons,
+  FaqList,
+  FinalCta,
+  ServiceCard,
+} from "@/components/ui";
+import { company, homeFaq, regions, services } from "@/lib/content";
+export default function Home() {
+  return (
+    <>
+      <section className="hero container">
+        <div className="hero-copy">
+          <h1>
+            Chaveiro na
+            <br className="desktop-break" /> Freguesia do Ó<br />
+            <span>
+              com atendimento
+              <br className="desktop-break" /> 24 horas.
+            </span>
+          </h1>
+          <p>
+            Para a sua casa. Para o seu carro.
+            <br />
+            Serviços de chaveiro com atendimento na Freguesia do Ó e bairros
+            próximos.
+          </p>
+          <ContactButtons />
+          <div className="hero-note">
+            <MapPin size={16} aria-hidden="true" />
+            Na Vila Albertina, perto de você.
+          </div>
+        </div>
+        <div className="brand-panel">
+          <div className="brand-panel-top">
+            <span>RODNEI CHAVEIRO</span>
+            <span>São Paulo · SP</span>
+          </div>
+          <Image
+            className="hero-symbol"
+            src="/brand/simbolo-r-marfim.svg"
+            alt="Monograma R do Rodnei Chaveiro, com detalhe de fechadura em latão"
+            width={400}
+            height={400}
+            priority
+          />
+          <div className="brand-panel-bottom">
+            <span>
+              O cuidado começa
+              <br />
+              no primeiro contato.
+            </span>
+            <ArrowUpRight size={28} strokeWidth={1} aria-hidden="true" />
+          </div>
+          <div className="availability">
+            <Clock3 size={25} strokeWidth={1.4} aria-hidden="true" />
+            <div>
+              <strong>Atendimento 24 horas</strong>
+              <span>Chame quando precisar.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div className="service-strip">
+        <div className="container">
+          <span>
+            <Check size={17} aria-hidden="true" />
+            Serviços residenciais
+          </span>
+          <span>
+            <Check size={17} aria-hidden="true" />
+            Chaveiro automotivo
+          </span>
+          <span>
+            <Check size={17} aria-hidden="true" />
+            Chaves codificadas
+          </span>
+          <span>
+            <MapPin size={17} aria-hidden="true" />
+            Freguesia do Ó
+          </span>
+        </div>
+      </div>
+      <section className="section container" id="servicos">
+        <div className="section-heading">
+          <h2>
+            Uma solução para
+            <br />
+            cada necessidade.
+          </h2>
+          <p>
+            Conheça os serviços e fale com o Rodnei
+            <br className="desktop-break" /> para avaliar o seu caso.
+          </p>
+        </div>
+        <div className="services-grid">
+          {services.map((service, i) => (
+            <ServiceCard
+              key={service.slug}
+              service={service}
+              featured={i === 0}
+            />
+          ))}
+        </div>
+      </section>
+      <section className="difference">
+        <div className="container difference-grid">
+          <div>
+            <h2>
+              O seu chaveiro.
+              <br />
+              <span>Aqui na região.</span>
+            </h2>
+            <p>
+              Um contato para os imprevistos e para os cuidados do dia a dia com
+              suas chaves e fechaduras.
+            </p>
+            <Link className="text-link" href="/sobre">
+              Conheça o Rodnei <ArrowRight size={19} aria-hidden="true" />
+            </Link>
+          </div>
+          <div className="reasons">
+            <article>
+              <Clock3 size={26} strokeWidth={1.4} aria-hidden="true" />
+              <div>
+                <h3>Atendimento 24 horas</h3>
+                <p>
+                  Entre em contato a qualquer hora para consultar o atendimento.
+                </p>
+              </div>
+            </article>
+            <article>
+              <MapPin size={26} strokeWidth={1.4} aria-hidden="true" />
+              <div>
+                <h3>Presença na Freguesia do Ó</h3>
+                <p>
+                  Endereço na Vila Albertina e atendimento nos bairros próximos.
+                </p>
+              </div>
+            </article>
+            <article>
+              <MessageCircle size={26} strokeWidth={1.4} aria-hidden="true" />
+              <div>
+                <h3>Conversa direta sobre o seu caso</h3>
+                <p>
+                  Explique o problema e consulte as possibilidades antes de
+                  combinar o serviço.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section className="section container social-section" id="trabalhos">
+        <div>
+          <h2>
+            Conheça o trabalho
+            <br />
+            mais de perto.
+          </h2>
+          <p>
+            Acompanhe o perfil oficial do Rodnei e converse sobre o serviço de
+            que você precisa.
+          </p>
+        </div>
+        <a
+          className="social-link"
+          href={company.instagram}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span>Instagram oficial</span>
+          <strong>@rodnei_chaveiro</strong>
+          <ArrowUpRight size={27} aria-hidden="true" />
+        </a>
+      </section>
+      <section className="about-home container">
+        <div className="about-brand">
+          <Image
+            src="/brand/logo-vertical-grafite.svg"
+            alt="Rodnei Chaveiro — Freguesia do Ó"
+            width={360}
+            height={360}
+          />
+        </div>
+        <div>
+          <h2>
+            Chaves abrem portas.
+            <br />
+            Confiança abre conversas.
+          </h2>
+          <p>
+            O Rodnei Chaveiro atende a Freguesia do Ó com serviços residenciais,
+            automotivos, chaves codificadas e serviços tradicionais de chaveiro.
+          </p>
+          <p>
+            Na Rua Dr. Elviro Carrilho, em Vila Albertina, você encontra o
+            contato para cuidar do acesso à sua casa e ao seu veículo.
+          </p>
+          <Link href="/sobre" className="text-link">
+            Sobre o Rodnei <ArrowRight size={18} aria-hidden="true" />
+          </Link>
+        </div>
+      </section>
+      <section className="google-section container">
+        <div>
+          <h2>
+            Confira as avaliações
+            <br />
+            no Google.
+          </h2>
+          <p>
+            Consulte o perfil da empresa e leia os relatos dos clientes
+            diretamente na plataforma.
+          </p>
+        </div>
+        <a
+          href={company.maps}
+          className="button button-outline"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-conversion="maps_click"
+          data-source="reviews"
+        >
+          Ver perfil no Google <ArrowUpRight size={18} aria-hidden="true" />
+        </a>
+      </section>
+      <section className="regions-section">
+        <div className="container regions-grid">
+          <div>
+            <h2>
+              Por perto,
+              <br />
+              quando você precisa.
+            </h2>
+            <p>
+              Atendimento na Freguesia do Ó e nos bairros ao redor. Informe seu
+              endereço para combinar o deslocamento.
+            </p>
+            <Link href="/regioes-atendidas" className="text-link">
+              Consultar regiões atendidas{" "}
+              <ArrowRight size={19} aria-hidden="true" />
+            </Link>
+          </div>
+          <ul className="region-list">
+            {regions.map((region) => (
+              <li key={region}>
+                <MapPin size={18} aria-hidden="true" />
+                {region}
+                <Check size={16} aria-hidden="true" />
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+      <section className="section container location-grid" id="localizacao">
+        <div>
+          <h2>Encontre o Rodnei.</h2>
+          <p className="location-address">
+            {company.address}
+            <br />
+            {company.district} · São Paulo, SP
+            <br />
+            CEP {company.zip}
+          </p>
+          <p>
+            Vai até o endereço? Entre em contato
+            <br />
+            antes de sair para combinar sua visita.
+          </p>
+          <a
+            href={company.maps}
+            className="button button-dark"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-conversion="maps_click"
+            data-source="location"
+          >
+            Abrir rota no Google Maps{" "}
+            <ArrowUpRight size={18} aria-hidden="true" />
+          </a>
+        </div>
+        <div className="location-panel">
+          <MapPin size={44} strokeWidth={1.2} aria-hidden="true" />
+          <h3>
+            Vila Albertina
+            <br />
+            <span>Freguesia do Ó</span>
+          </h3>
+          <div>
+            <span>Rua Dr. Elviro Carrilho</span>
+            <strong>309</strong>
+          </div>
+          <span className="location-city">São Paulo · SP</span>
+        </div>
+      </section>
+      <section className="faq-section container">
+        <div>
+          <h2>
+            Antes de chamar,
+            <br />
+            tire suas dúvidas.
+          </h2>
+          <p>
+            Não encontrou sua resposta?
+            <br />
+            <Link href="/contato" className="text-link">
+              Fale com o Rodnei <ArrowRight size={17} aria-hidden="true" />
+            </Link>
+          </p>
+        </div>
+        <FaqList items={homeFaq} />
+      </section>
+      <FinalCta />
+    </>
+  );
+}

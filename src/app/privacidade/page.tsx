@@ -1,5 +1,60 @@
-import {Breadcrumbs} from '@/components/ui';
-import {PrivacySettings} from '@/components/analytics';
-import {pageMetadata} from '@/lib/site';
-export const metadata=pageMetadata('Privacidade e uso de dados','Saiba como o site Rodnei Chaveiro utiliza dados de navegação e como entrar em contato sobre privacidade.','/privacidade');
-export default function Privacy(){return <div className="container"><Breadcrumbs items={[{name:'Privacidade'}]}/><article className="prose legal"><h1>Privacidade.</h1><p>Última atualização: 6 de novembro de 2026.</p><h2>Contato e atendimento</h2><p>Este site apresenta os serviços do Rodnei Chaveiro - Freguesia do Ó. Não há formulário de cadastro. Ao entrar em contato pelo telefone ou WhatsApp (11) 96087-7257, as informações fornecidas são utilizadas para entender a solicitação e combinar o atendimento. Envie somente os dados necessários para o serviço.</p><h2>Links para outras plataformas</h2><p>Ao abrir WhatsApp, Instagram ou Google Maps, você acessa plataformas externas, que possuem suas próprias políticas de privacidade. As informações compartilhadas nessas plataformas são tratadas de acordo com as regras de cada serviço.</p><h2>Estatísticas de navegação</h2><p>Se o Google Analytics estiver configurado, o site solicitará sua escolha antes de carregar as estatísticas. A recusa não impede o acesso nem o contato. Quando autorizado, são registrados dados de navegação e cliques nos botões de WhatsApp, telefone e rotas, incluindo a página e o local do botão. O site não envia o conteúdo das conversas ao Analytics.</p><h2>Preferências e registros técnicos</h2><p>A escolha de estatísticas é salva no navegador. O provedor de hospedagem pode processar registros técnicos, como endereço IP e requisições, para entregar e proteger o site. Você pode alterar sua preferência abaixo; após recusar, recarregue a página para encerrar scripts já carregados. Cookies existentes também podem ser removidos nas configurações do navegador.</p><PrivacySettings/><h2>Dúvidas sobre seus dados</h2><p>Para solicitar informações, correção ou exclusão de dados fornecidos no atendimento, entre em contato com o Rodnei pelo telefone (11) 96087-7257 ou pelo WhatsApp. A solicitação será avaliada considerando os dados efetivamente mantidos e as obrigações aplicáveis.</p></article></div>;}
+import { Breadcrumbs } from "@/components/ui";
+import { PrivacySettings } from "@/components/analytics";
+import { pageMetadata } from "@/lib/site";
+export const metadata = pageMetadata(
+  "Privacidade e uso de dados",
+  "Saiba como o site Rodnei Chaveiro utiliza dados de navegação e como entrar em contato sobre privacidade.",
+  "/privacidade",
+);
+export default function Privacy() {
+  return (
+    <div className="container">
+      <Breadcrumbs items={[{ name: "Privacidade" }]} />
+      <article className="prose legal">
+        <h1>Privacidade.</h1>
+        <p>Última atualização: 6 de novembro de 2026.</p>
+        <h2>Contato e atendimento</h2>
+        <p>
+          Este site apresenta os serviços do Rodnei Chaveiro - Freguesia do Ó.
+          Não há formulário de cadastro. Ao entrar em contato pelo telefone ou
+          WhatsApp (11) 96087-7257, as informações fornecidas são utilizadas
+          para entender a solicitação e combinar o atendimento. Envie somente os
+          dados necessários para o serviço.
+        </p>
+        <h2>Links para outras plataformas</h2>
+        <p>
+          Ao abrir WhatsApp, Instagram ou Google Maps, você acessa plataformas
+          externas, que possuem suas próprias políticas de privacidade. As
+          informações compartilhadas nessas plataformas são tratadas de acordo
+          com as regras de cada serviço.
+        </p>
+        <h2>Estatísticas de navegação</h2>
+        <p>
+          Se o Google Analytics estiver configurado, o site solicitará sua
+          escolha antes de carregar as estatísticas. A recusa não impede o
+          acesso nem o contato. Quando autorizado, são registrados dados de
+          navegação e cliques nos botões de WhatsApp, telefone e rotas,
+          incluindo a página e o local do botão. O site não envia o conteúdo das
+          conversas ao Analytics.
+        </p>
+        <h2>Preferências e registros técnicos</h2>
+        <p>
+          A escolha de estatísticas é salva no navegador. O provedor de
+          hospedagem pode processar registros técnicos, como endereço IP e
+          requisições, para entregar e proteger o site. Você pode alterar sua
+          preferência abaixo; após recusar, recarregue a página para encerrar
+          scripts já carregados. Cookies existentes também podem ser removidos
+          nas configurações do navegador.
+        </p>
+        <PrivacySettings />
+        <h2>Dúvidas sobre seus dados</h2>
+        <p>
+          Para solicitar informações, correção ou exclusão de dados fornecidos
+          no atendimento, entre em contato com o Rodnei pelo telefone (11)
+          96087-7257 ou pelo WhatsApp. A solicitação será avaliada considerando
+          os dados efetivamente mantidos e as obrigações aplicáveis.
+        </p>
+      </article>
+    </div>
+  );
+}
