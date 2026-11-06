@@ -67,7 +67,7 @@ Botões em cápsula de 48 px; círculos e curvas grandes com função de composi
 
 ## Components
 
-O hero usa o personagem fictício aprovado, com identificação ilustrativa no site. Serviços são cards com imagem realista, descrição e link para a página correspondente. As avaliações preservam os oito autores e textos fornecidos. A seção segue a referência Capucho: Google Reviews e link à esquerda, mural de cards brancos com estrelas amarelas e iniciais à direita. Duas colunas no desktop e uma no celular; área de leitura com rolagem manual e suporte a teclado. Não exibir nota média ou total geral do perfil sem dados confirmados. Menu móvel, contatos fixos, FAQ nativo e foco visível são mantidos. Transições respeitam movimento reduzido.
+O hero usa o personagem fictício aprovado, com identificação ilustrativa no site. Serviços são cards com imagem realista, descrição e link para a página correspondente. As avaliações preservam os oito autores e textos fornecidos. A seção segue a referência Capucho: Google Reviews e link à esquerda, mural de cards brancos com estrelas amarelas e iniciais à direita. Duas colunas no desktop e uma no celular; mural com subida automática contínua e degradê nas bordas superior e inferior, sem botão de pausar. O movimento suspende ao passar o mouse; foco de teclado e preferência por movimento reduzido permitem leitura estática e rolagem manual. Não exibir nota média ou total geral do perfil sem dados confirmados. Menu móvel, contatos fixos, FAQ nativo e foco visível são mantidos. Transições respeitam movimento reduzido.
 
 ## Do's and Don'ts
 

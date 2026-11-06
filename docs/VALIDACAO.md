@@ -78,3 +78,7 @@ Destaque 24H com fundo escuro, moldura iluminada e brilho amarelo estático em C
 Adicionadas as cinco avaliações enviadas: Heloisa7609 Zafra, Ana Rita Godoy, Orivaldo Vargas Rodrigues Rodrigues, Fabio Eduardo e Carolina Nunes. Total de oito depoimentos transcritos das capturas fornecidas, preservando o texto visível e marcando os trechos anteriores. Nova apresentação com Google Reviews, link externo e mural de cards com estrelas amarelas e iniciais. Sem inferir nota média ou total geral de avaliações do perfil.
 
 `npm run verify` aprovado. Três testes de navegador aprovados em 51,3 s, incluindo acessibilidade. Conferidos os oito cards, a presença de cada novo autor, a rolagem por teclado e a ausência de rolagem horizontal da página em 360, 390, 768 e 1440 px. Capturas desktop e celular inspecionadas visualmente.
+
+## Avaliações com movimento e degradê — 06/11/2026
+
+Mural com subida automática contínua em CSS e máscara de transparência no topo e na base, sem botão de pausar. Grupo repetido oculto das tecnologias assistivas e não interativo; grupos com alturas iguais de 1080 px no desktop, mantendo a emenda do loop. Verificados movimento em execução, ausência de botão de pausar, leitura com teclado e preferência por movimento reduzido. Inspeção visual em desktop e celular. `npm run verify` aprovado e três testes de navegador aprovados em 38,6 s.

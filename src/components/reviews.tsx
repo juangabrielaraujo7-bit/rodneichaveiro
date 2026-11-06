@@ -61,43 +61,52 @@ export function Reviews() {
       <div
         className="reviews-wall"
         role="region"
-        aria-label="Avaliações de clientes — role para ler mais"
+        aria-label="Avaliações de clientes"
         tabIndex={0}
       >
-        <div className="reviews-grid">
-          {reviews.map((review) => (
-            <figure className="review-card" key={review.author}>
-              <div
-                className="review-stars"
-                role="img"
-                aria-label={`${review.rating} de 5 estrelas`}
-              >
-                {Array.from({ length: review.rating }, (_, i) => (
-                  <Star
-                    key={i}
-                    size={17}
-                    fill="#ffdf00"
-                    strokeWidth={1.5}
-                    aria-hidden="true"
-                  />
-                ))}
-              </div>
-              <blockquote>
-                <p>“{review.text}”</p>
-              </blockquote>
-              <figcaption>
-                <span className="review-avatar" aria-hidden="true">
-                  {review.initials}
-                </span>
-                <div>
-                  <strong>{review.author}</strong>
-                  <span>Avaliação no Google</span>
-                </div>
-              </figcaption>
-              {review.excerpt && (
-                <span className="review-excerpt">Trecho da avaliação</span>
-              )}
-            </figure>
+        <div className="reviews-loop">
+          {[false, true].map((copy) => (
+            <div
+              className="reviews-grid"
+              key={String(copy)}
+              aria-hidden={copy || undefined}
+              inert={copy || undefined}
+            >
+              {reviews.map((review) => (
+                <figure className="review-card" key={review.author}>
+                  <div
+                    className="review-stars"
+                    role="img"
+                    aria-label={`${review.rating} de 5 estrelas`}
+                  >
+                    {Array.from({ length: review.rating }, (_, i) => (
+                      <Star
+                        key={i}
+                        size={17}
+                        fill="#ffdf00"
+                        strokeWidth={1.5}
+                        aria-hidden="true"
+                      />
+                    ))}
+                  </div>
+                  <blockquote>
+                    <p>“{review.text}”</p>
+                  </blockquote>
+                  <figcaption>
+                    <span className="review-avatar" aria-hidden="true">
+                      {review.initials}
+                    </span>
+                    <div>
+                      <strong>{review.author}</strong>
+                      <span>Avaliação no Google</span>
+                    </div>
+                  </figcaption>
+                  {review.excerpt && (
+                    <span className="review-excerpt">Trecho da avaliação</span>
+                  )}
+                </figure>
+              ))}
+            </div>
           ))}
         </div>
       </div>
