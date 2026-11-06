@@ -1,6 +1,41 @@
-// Transcribed exclusively from the three Google review screenshots supplied by
+// Transcribed exclusively from the eight Google review screenshots supplied by
 // the project owner on 2026-11-06. Relative dates and hidden text are not inferred.
 export const reviews = [
+  {
+    author: "Heloisa7609 Zafra",
+    initials: "HZ",
+    rating: 5,
+    excerpt: false,
+    text: "Muito bom,o atendimento é ótimo,sem atrasos,as chaves e as fechaduras de qualidade!!",
+  },
+  {
+    author: "Ana Rita Godoy",
+    initials: "AG",
+    rating: 5,
+    excerpt: false,
+    text: "Me salvou a noite, super solicito Recomendo mil vezes",
+  },
+  {
+    author: "Orivaldo Vargas Rodrigues Rodrigues",
+    initials: "OR",
+    rating: 5,
+    excerpt: false,
+    text: "Chaveiro muito Competente e bom atendimento.Qualidade e Preço Bom.E Bom de Negócio.",
+  },
+  {
+    author: "Fabio Eduardo",
+    initials: "FE",
+    rating: 5,
+    excerpt: false,
+    text: "Chaveiro super atencioso , trabalho de Qualidade e com precisão Super Recomendo .",
+  },
+  {
+    author: "Carolina Nunes",
+    initials: "CN",
+    rating: 5,
+    excerpt: false,
+    text: "Profissional de qualidade, prestou serviço com zelo, cuidado e pontualidade. Noto 1000",
+  },
   {
     author: "Kauane Ferreira",
     initials: "KF",

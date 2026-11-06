@@ -72,3 +72,9 @@ Cards em faixa horizontal com setas, imagens realistas e links. Medidas conferid
 ## Plaquinha neon 24H — 06/11/2026
 
 Destaque 24H com fundo escuro, moldura iluminada e brilho amarelo estático em CSS. Build aprovado; inspeção visual em desktop e celular e checagem de ausência de rolagem horizontal em 360, 390, 768 e 1440 px.
+
+## Mural de avaliações com referência Capucho — 06/11/2026
+
+Adicionadas as cinco avaliações enviadas: Heloisa7609 Zafra, Ana Rita Godoy, Orivaldo Vargas Rodrigues Rodrigues, Fabio Eduardo e Carolina Nunes. Total de oito depoimentos transcritos das capturas fornecidas, preservando o texto visível e marcando os trechos anteriores. Nova apresentação com Google Reviews, link externo e mural de cards com estrelas amarelas e iniciais. Sem inferir nota média ou total geral de avaliações do perfil.
+
+`npm run verify` aprovado. Três testes de navegador aprovados em 51,3 s, incluindo acessibilidade. Conferidos os oito cards, a presença de cada novo autor, a rolagem por teclado e a ausência de rolagem horizontal da página em 360, 390, 768 e 1440 px. Capturas desktop e celular inspecionadas visualmente.
