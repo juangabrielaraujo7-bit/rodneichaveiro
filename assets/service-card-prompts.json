@@ -1,0 +1,41 @@
+{
+  "tool": "image_gen (built-in)",
+  "transparent_background": true,
+  "images": [
+    {
+      "slug": "chaveiro-24-horas",
+      "file": "public/images/services/chaveiro-24-horas-card-v2.webp",
+      "prompt": "Use case: product-mockup. Asset: realistic locksmith website service card image. A small brushed metal house key on a simple keyring beside a compact black and yellow flashlight, emergency locksmith service. Ultra photorealistic studio product photography, tactile metal and plastic, physically accurate proportions. Isolated cutout on a truly transparent alpha background, floating at a gentle three-quarter angle, subtle self-shadow only, no floor or backdrop. Centered compact composition, all objects entirely in frame with 12% safe margin, consistent soft daylight from upper left, crisp edges, restrained black / silver / brass / warm yellow palette. Landscape 3:2 composition. No text, no branding, no logos, no watermark, no hands or people. One standalone image only."
+    },
+    {
+      "slug": "chaveiro-automotivo",
+      "file": "public/images/services/chaveiro-automotivo-card-v2.webp",
+      "prompt": "Use case: product-mockup. Asset: realistic locksmith website service card image. A premium unbranded black car remote key fob with extended metal blade, three tactile buttons, subtle yellow detail. Ultra photorealistic studio product photography, tactile metal and plastic, physically accurate proportions. Isolated cutout on a truly transparent alpha background, floating at a gentle three-quarter angle, subtle self-shadow only, no floor or backdrop. Centered compact composition, all objects entirely in frame with 12% safe margin, consistent soft daylight from upper left, crisp edges, restrained black / silver / brass / warm yellow palette. Landscape 3:2 composition. No text, no branding, no logos, no watermark, no hands or people. One standalone image only."
+    },
+    {
+      "slug": "chaves-codificadas",
+      "file": "public/images/services/chaves-codificadas-card-v2.webp",
+      "prompt": "Use case: product-mockup. Asset: realistic locksmith website service card image. Two modern unbranded automotive transponder key fobs, one closed black shell and one small isolated transponder chip beside it, product catalog only. Ultra photorealistic studio product photography, tactile metal and plastic, physically accurate proportions. Isolated cutout on a truly transparent alpha background, floating at a gentle three-quarter angle, subtle self-shadow only, no floor or backdrop. Centered compact composition, all objects entirely in frame with 12% safe margin, consistent soft daylight from upper left, crisp edges, restrained black / silver / brass / warm yellow palette. Landscape 3:2 composition. No text, no branding, no logos, no watermark, no hands or people. One standalone image only."
+    },
+    {
+      "slug": "chaveiro-residencial",
+      "file": "public/images/services/chaveiro-residencial-card-v2.webp",
+      "prompt": "Use case: product-mockup. Asset: realistic locksmith website service card image. A modern satin nickel residential door lever handle with a round key escutcheon and a matching brass house key. Ultra photorealistic studio product photography, tactile metal and plastic, physically accurate proportions. Isolated cutout on a truly transparent alpha background, floating at a gentle three-quarter angle, subtle self-shadow only, no floor or backdrop. Centered compact composition, all objects entirely in frame with 12% safe margin, consistent soft daylight from upper left, crisp edges, restrained black / silver / brass / warm yellow palette. Landscape 3:2 composition. No text, no branding, no logos, no watermark, no hands or people. One standalone image only."
+    },
+    {
+      "slug": "abertura-de-portas",
+      "file": "public/images/services/abertura-de-portas-card-v2.webp",
+      "prompt": "Use case: product-mockup. Asset: realistic locksmith website service card image. A modern satin nickel door handle and cylinder mounted on a small clean white door-edge sample, door slightly ajar, only standard hardware, no tools. Ultra photorealistic studio product photography, tactile metal and plastic, physically accurate proportions. Isolated cutout on a truly transparent alpha background, floating at a gentle three-quarter angle, subtle self-shadow only, no floor or backdrop. Centered compact composition, all objects entirely in frame with 12% safe margin, consistent soft daylight from upper left, crisp edges, restrained black / silver / brass / warm yellow palette. Landscape 3:2 composition. No text, no branding, no logos, no watermark, no hands or people. One standalone image only."
+    },
+    {
+      "slug": "troca-de-fechaduras",
+      "file": "public/images/services/troca-de-fechaduras-card-v2.webp",
+      "prompt": "Use case: product-mockup. Asset: realistic locksmith website service card image. A new brushed nickel euro-profile door lock cylinder, two matching brass keys and a small rectangular lock faceplate, arranged neatly. Ultra photorealistic studio product photography, tactile metal and plastic, physically accurate proportions. Isolated cutout on a truly transparent alpha background, floating at a gentle three-quarter angle, subtle self-shadow only, no floor or backdrop. Centered compact composition, all objects entirely in frame with 12% safe margin, consistent soft daylight from upper left, crisp edges, restrained black / silver / brass / warm yellow palette. Landscape 3:2 composition. No text, no branding, no logos, no watermark, no hands or people. One standalone image only."
+    },
+    {
+      "slug": "copia-de-chaves",
+      "file": "public/images/services/copia-de-chaves-card-v2.webp",
+      "prompt": "Use case: product-mockup. Asset: realistic locksmith website service card image. Three freshly cut ordinary brass house keys, overlapping in an elegant fan, different simple key heads, realistic metal teeth. Ultra photorealistic studio product photography, tactile metal and plastic, physically accurate proportions. Isolated cutout on a truly transparent alpha background, floating at a gentle three-quarter angle, subtle self-shadow only, no floor or backdrop. Centered compact composition, all objects entirely in frame with 12% safe margin, consistent soft daylight from upper left, crisp edges, restrained black / silver / brass / warm yellow palette. Landscape 3:2 composition. No text, no branding, no logos, no watermark, no hands or people. One standalone image only."
+    }
+  ]
+}

@@ -8,7 +8,7 @@ import {
   MapPin,
   Phone,
 } from "lucide-react";
-import { ContactButtons, Icon, FaqList } from "./ui";
+import { ContactButtons, FaqList } from "./ui";
 import { Reviews } from "./reviews";
 import { company, homeFaq, regions, services } from "@/lib/content";
 function Wave({ fill }: { fill: string }) {
@@ -78,11 +78,16 @@ export default function ApprovedHome() {
                   href={`/${s.slug}`}
                   className="home-service-card"
                 >
-                  <Icon name={s.icon} size={30} />
-                  <h3>
-                    {s.name}
-                    <ArrowRight size={17} />
-                  </h3>
+                  <div className="home-service-card-image">
+                    <Image
+                      src={`/images/services/${s.slug}-card-v2.webp`}
+                      alt=""
+                      width={640}
+                      height={426}
+                      sizes="(max-width:640px) 80vw, (max-width:1100px) 40vw, 240px"
+                    />
+                  </div>
+                  <h3>{s.name}</h3>
                   <p>{s.short}</p>
                   <span className="home-service-card-action">
                     Conhecer o serviço{" "}
