@@ -69,13 +69,14 @@ export default function Contact() {
             <p>
               Ligue ou envie uma mensagem.
               <br />
-              Combine a disponibilidade para
-              <br />o serviço e para sua visita.
+              Consulte a disponibilidade e
+              <br />
+              combine os detalhes do atendimento.
             </p>
           </article>
         </section>
         <section className="faq-section">
-          <h2>Antes do contato.</h2>
+          <h2>Dúvidas frequentes.</h2>
           <FaqList items={homeFaq.slice(1, 4)} />
         </section>
       </div>

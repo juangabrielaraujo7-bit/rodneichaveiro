@@ -17,17 +17,17 @@ export default function About() {
         <section className="inner-hero">
           <div>
             <h1>
-              Um contato local.
+              Rodnei Chaveiro.
               <br />
               <span>
-                Para cuidar do
+                Atendimento na
                 <br />
-                seu acesso.
+                Freguesia do Ó.
               </span>
             </h1>
             <p>
               Rodnei Chaveiro - Freguesia do Ó. Atendimento residencial e
-              automotivo, com contato por WhatsApp e telefone, 24 horas.
+              automotivo, 24 horas. Entre em contato por WhatsApp ou telefone.
             </p>
           </div>
           <div className="about-brand">

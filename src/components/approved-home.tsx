@@ -36,7 +36,7 @@ export default function ApprovedHome() {
         <div className="concept-container concept-hero-grid">
           <div className="concept-hero-copy">
             <h1>
-              Chaveiro <span>24h</span> na
+              Chaveiro <span>24 horas</span> na
               <br className="wide-break" /> Freguesia do Ó.
             </h1>
             <p>
@@ -63,7 +63,7 @@ export default function ApprovedHome() {
             <span className="person-circle" />
             <Image
               src="/images/approved/hero-professional.webp"
-              alt="Profissional ilustrativo de chaveiro, gerado por IA"
+              alt="Imagem ilustrativa de um chaveiro, gerada por IA"
               width={800}
               height={1000}
               sizes="(max-width:640px) 90vw, 480px"
@@ -111,7 +111,10 @@ export default function ApprovedHome() {
           </span>
           <div>
             <h2>Imprevistos não escolhem hora.</h2>
-            <p>Consulte o atendimento para sua localização.</p>
+            <p>
+              Informe sua localização e consulte a disponibilidade de
+              atendimento.
+            </p>
             <ContactButtons compact source="home_emergency" />
           </div>
         </div>
@@ -123,7 +126,7 @@ export default function ApprovedHome() {
           <div className="automotive-photo">
             <Image
               src="/images/approved/automotive-work.webp"
-              alt="Imagem ilustrativa de atendimento em fechadura automotiva"
+              alt="Imagem ilustrativa de um veículo estacionado"
               width={700}
               height={700}
               sizes="(max-width:640px) 80vw, 370px"
@@ -131,10 +134,11 @@ export default function ApprovedHome() {
           </div>
           <div>
             <h2>
-              Cuidado com a<br /> chave do seu carro.
+              Chaves automotivas
+              <br /> para o seu veículo.
             </h2>
             <p>
-              Informe o modelo do veículo
+              Informe a marca, o modelo e o ano
               <br className="wide-break" /> e fale com o Rodnei.
             </p>
             <Link href="/chaveiro-automotivo" className="button button-primary">
@@ -149,8 +153,8 @@ export default function ApprovedHome() {
         <div className="concept-container about-grid">
           <div>
             <h2>
-              Um contato aqui
-              <br /> no bairro.
+              Seu chaveiro na
+              <br /> Freguesia do Ó.
             </h2>
             <p>
               <strong>Rodnei Chaveiro — Freguesia do Ó.</strong>
@@ -183,7 +187,7 @@ export default function ApprovedHome() {
       </div>
       <section className="concept-regions dark-surface">
         <div className="concept-container">
-          <h2>Na Freguesia do Ó e por perto.</h2>
+          <h2>Atendimento na Freguesia do Ó e região.</h2>
           <ul>
             {regions.map((r) => (
               <li key={r}>{r}</li>

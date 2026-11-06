@@ -41,7 +41,7 @@ export const guides = [
       },
       {
         title: "Descreva os sintomas",
-        text: "Explique se a chave abre a porta, se gira na ignição e se o carro reconhece a partida. Problemas de reconhecimento podem ter causas diferentes, e a avaliação é necessária antes de definir o serviço.",
+        text: "Explique se a chave abre a porta, se gira na ignição e se o veículo reconhece a chave e permite a partida. Problemas de reconhecimento podem ter causas diferentes, e a avaliação é necessária antes de definir o serviço.",
       },
       {
         title: "Consulte antes de se deslocar",

@@ -153,7 +153,7 @@ export function FinalCta({
           <h2>
             Precisa de um chaveiro?
             <br />
-            <span>Vamos resolver o próximo passo.</span>
+            <span>Fale com o Rodnei.</span>
           </h2>
           <p>Conte o que aconteceu e informe sua localização.</p>
         </div>

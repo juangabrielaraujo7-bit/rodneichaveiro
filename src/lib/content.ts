@@ -38,7 +38,8 @@ export const services: Service[] = [
   {
     slug: "chaveiro-24-horas",
     name: "Chaveiro 24 horas",
-    short: "Imprevistos não escolhem hora. Tenha um contato para pedir ajuda.",
+    short:
+      "Atendimento a qualquer hora. Informe sua localização e o serviço necessário.",
     title: "Chaveiro 24 horas na Freguesia do Ó",
     description:
       "Atendimento de chaveiro 24 horas na Freguesia do Ó e bairros próximos. Fale com o Rodnei por WhatsApp ou telefone e informe sua necessidade.",
@@ -80,10 +81,10 @@ export const services: Service[] = [
   {
     slug: "chaveiro-automotivo",
     name: "Chaveiro automotivo",
-    short: "Atendimento para problemas com chaves e acesso ao seu veículo.",
+    short: "Atendimento para perda de chaves e problemas de acesso ao veículo.",
     title: "Chaveiro automotivo na Freguesia do Ó",
     description:
-      "Precisa de chaveiro automotivo na Freguesia do Ó? Consulte atendimento para sua chave e seu veículo com o Rodnei. Informe marca, modelo e ano.",
+      "Precisa de chaveiro automotivo na Freguesia do Ó? Fale com o Rodnei e informe a marca, o modelo e o ano do veículo para consultar o atendimento.",
     intro:
       "Uma chave perdida ou um problema de acesso ao carro pede uma avaliação específica. Conte com atendimento automotivo e consulte a solução para o seu veículo.",
     icon: "car",
@@ -97,7 +98,7 @@ export const services: Service[] = [
     prepare: [
       "Marca, modelo e ano do veículo",
       "Local onde o veículo se encontra",
-      "Informe se possui chave reserva e envie foto da chave, se tiver",
+      "Informe se possui uma chave reserva e envie uma foto, se possível",
     ],
     message:
       "Olá, encontrei o site e preciso de atendimento com chave automotiva.",
@@ -118,7 +119,8 @@ export const services: Service[] = [
   {
     slug: "chaves-codificadas",
     name: "Chaves codificadas",
-    short: "Consulte a compatibilidade da chave com o sistema do seu carro.",
+    short:
+      "Cópia e reposição de chaves com chip, conforme a compatibilidade do veículo.",
     title: "Chaves codificadas na Freguesia do Ó",
     description:
       "Serviço de chaves codificadas na Freguesia do Ó. Consulte compatibilidade, cópia ou reposição informando marca, modelo e ano do veículo ao Rodnei.",
@@ -126,7 +128,7 @@ export const services: Service[] = [
       "A chave codificada faz parte do sistema de identificação do veículo. Para avaliar cópia ou reposição, o primeiro passo é conhecer o seu carro.",
     icon: "chip",
     situations: [
-      "Necessidade de consultar uma chave reserva",
+      "Necessidade de uma chave reserva",
       "Perda de chave com chip",
       "Chave que não é reconhecida pelo veículo",
     ],
@@ -135,7 +137,7 @@ export const services: Service[] = [
     prepare: [
       "Marca, modelo e ano",
       "Foto da chave disponível, quando houver",
-      "Informe se a chave abre a porta, mas o veículo não reconhece a partida",
+      "Informe se a chave abre a porta, mas o veículo não permite a partida",
     ],
     message:
       "Olá, encontrei o site e gostaria de consultar um serviço de chave codificada.",
@@ -194,7 +196,8 @@ export const services: Service[] = [
   {
     slug: "abertura-de-portas",
     name: "Abertura de portas",
-    short: "Ficou para fora? Informe o tipo de porta e peça atendimento.",
+    short:
+      "Atendimento para portas trancadas, chaves perdidas e fechaduras travadas.",
     title: "Abertura de portas na Freguesia do Ó",
     description:
       "Precisa abrir uma porta na Freguesia do Ó? Fale com o Rodnei Chaveiro 24 horas. Informe o tipo de fechadura, a situação e sua localização.",
@@ -235,7 +238,8 @@ export const services: Service[] = [
   {
     slug: "troca-de-fechaduras",
     name: "Troca de fechaduras",
-    short: "Avalie a substituição da fechadura e o controle de acesso.",
+    short:
+      "Troca de fechaduras ou de segredo, conforme o modelo e o estado do mecanismo.",
     title: "Troca de fechaduras na Freguesia do Ó",
     description:
       "Troca de fechaduras na Freguesia do Ó e bairros próximos. Consulte o Rodnei sobre compatibilidade, troca de segredo e substituição de fechaduras.",
@@ -255,7 +259,7 @@ export const services: Service[] = [
       "Explique se pretende alterar o acesso ou resolver um defeito",
     ],
     message:
-      "Olá, encontrei o site e gostaria de consultar troca de fechadura.",
+      "Olá, encontrei o site e gostaria de solicitar um orçamento para a troca de fechadura.",
     faq: [
       {
         question: "Troca de segredo é igual a troca de fechadura?",
@@ -273,7 +277,8 @@ export const services: Service[] = [
   {
     slug: "copia-de-chaves",
     name: "Cópia de chaves",
-    short: "Tenha uma reserva. Consulte a cópia para o seu modelo de chave.",
+    short:
+      "Precisa de uma chave reserva? Consulte a disponibilidade de cópia para o seu modelo.",
     title: "Cópia de chaves na Freguesia do Ó",
     description:
       "Consulte cópia de chaves na Freguesia do Ó com o Rodnei Chaveiro, na Rua Dr. Elviro Carrilho, 309. Verifique disponibilidade para seu tipo de chave.",
@@ -327,7 +332,7 @@ export const homeFaq: Faq[] = [
   {
     question: "Como pedir um orçamento?",
     answer:
-      "Envie sua necessidade, o bairro e uma foto da chave ou fechadura, se possível. Para veículos, inclua marca, modelo e ano. O valor é informado conforme a avaliação do serviço.",
+      "Descreva o serviço de que precisa, informe o bairro e envie uma foto da chave ou da fechadura, se possível. Para veículos, inclua a marca, o modelo e o ano. O valor é informado após a avaliação do serviço.",
   },
   {
     question: "Onde fica o Rodnei Chaveiro?",

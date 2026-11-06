@@ -21,8 +21,8 @@ export default function RegionsPage() {
             <span>e nos bairros próximos.</span>
           </h1>
           <p>
-            Informe o endereço e a necessidade do serviço. A disponibilidade e a
-            previsão de deslocamento são combinadas no contato.
+            Informe seu endereço e o serviço de que precisa. A disponibilidade e
+            a previsão de deslocamento são combinadas no contato.
           </p>
           <ContactButtons source="regions" />
         </section>
@@ -38,7 +38,7 @@ export default function RegionsPage() {
                     {i === 0
                       ? "Região principal de atendimento do Rodnei Chaveiro."
                       : i === 1
-                        ? "Bairro do endereço na Rua Dr. Elviro Carrilho, 309."
+                        ? "Estamos na Rua Dr. Elviro Carrilho, 309, neste bairro."
                         : "Atendimento residencial e automotivo, conforme avaliação do serviço."}
                   </p>
                 </div>
@@ -49,9 +49,8 @@ export default function RegionsPage() {
             <h2>Está em outra região?</h2>
             <p>
               Envie seu bairro e endereço pelo WhatsApp para consultar a
-              possibilidade de atendimento. Não é necessário adivinhar a
-              distância: combine a disponibilidade e o deslocamento diretamente
-              com o Rodnei.
+              possibilidade de atendimento. Combine a disponibilidade e os
+              detalhes do deslocamento diretamente com o Rodnei.
             </p>
             <h2>Vai ao endereço?</h2>
             <p>
