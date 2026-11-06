@@ -56,3 +56,7 @@ GA4 e Search Console estão preparados por variáveis; não há IDs do propriet�
 ## Como reproduzir
 
 `npm ci`, `npm run lint`, `npm run typecheck`, `npm test`, `npm run build`. Em outro terminal, `npm start`; depois `npm run test:e2e`. O navegador de testes pode ser instalado com `npx playwright install chromium`.
+
+## Atualização: cards e Google Maps — 06/11/2026
+
+`npm run verify` aprovado (lint, TypeScript, testes e build). `npm run test:e2e`: 3 testes aprovados em 35,4 s, cobrindo as 16 páginas, navegação, contatos, acessibilidade e larguras de 360 a 1440 px. Inspeção visual dos cards e da localização em desktop e celular. O iframe carregou o Google Maps com marcador na Rua Dr. Elviro Carrilho, 309; capturas locais em `.impeccable/review/location-desktop.png` e `location-mobile.png`.

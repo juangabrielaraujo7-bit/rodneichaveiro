@@ -24,12 +24,6 @@ function Wave({ fill }: { fill: string }) {
   );
 }
 export default function ApprovedHome() {
-  const primary = [
-    "abertura-de-portas",
-    "chaveiro-automotivo",
-    "chaves-codificadas",
-    "troca-de-fechaduras",
-  ];
   return (
     <div className="approved-home">
       <section className="concept-hero dark-surface">
@@ -76,31 +70,28 @@ export default function ApprovedHome() {
       <section className="concept-services light-surface" id="servicos">
         <div className="concept-container">
           <h2>Serviços para casa e carro.</h2>
-          <div className="editorial-services">
-            {primary.map((slug) => {
-              const s = services.find((x) => x.slug === slug)!;
+          <div className="home-service-cards">
+            {services.map((s) => {
               return (
-                <Link key={slug} href={`/${slug}`}>
+                <Link
+                  key={s.slug}
+                  href={`/${s.slug}`}
+                  className="home-service-card"
+                >
                   <Icon name={s.icon} size={30} />
                   <h3>
                     {s.name}
                     <ArrowRight size={17} />
                   </h3>
                   <p>{s.short}</p>
+                  <span className="home-service-card-action">
+                    Conhecer o serviço{" "}
+                    <ArrowRight size={16} aria-hidden="true" />
+                  </span>
                 </Link>
               );
             })}
           </div>
-          <nav className="more-services" aria-label="Outros serviços">
-            {services
-              .filter((s) => !primary.includes(s.slug))
-              .map((s) => (
-                <Link key={s.slug} href={`/${s.slug}`}>
-                  {s.name}
-                  <ArrowRight size={14} />
-                </Link>
-              ))}
-          </nav>
         </div>
         <Wave fill="#202020" />
       </section>
@@ -201,21 +192,33 @@ export default function ApprovedHome() {
         <Wave fill="#f7f7f7" />
       </section>
       <section className="concept-location light-surface" id="localizacao">
-        <div className="concept-container">
-          <MapPin size={25} />
-          <h2>{company.address}</h2>
-          <p>Vila Albertina · São Paulo · CEP {company.zip}</p>
-          <a
-            className="button button-primary"
-            href={company.maps}
-            target="_blank"
-            rel="noopener noreferrer"
-            data-conversion="maps_click"
-            data-source="home_location"
-          >
-            Ver localização
-            <ArrowRight size={16} />
-          </a>
+        <div className="concept-container home-location-grid">
+          <div>
+            <MapPin size={25} />
+            <h2>{company.address}</h2>
+            <p>Vila Albertina · São Paulo · CEP {company.zip}</p>
+            <a
+              className="button button-primary"
+              href={company.maps}
+              target="_blank"
+              rel="noopener noreferrer"
+              data-conversion="maps_click"
+              data-source="home_location"
+            >
+              Abrir rota no Google Maps
+              <ArrowRight size={16} />
+            </a>
+          </div>
+          <iframe
+            className="home-google-map"
+            title="Localização do Rodnei Chaveiro no Google Maps"
+            src={`https://maps.google.com/maps?q=${encodeURIComponent(`${company.address}, ${company.district}, São Paulo - SP, ${company.zip}`)}&z=16&output=embed`}
+            width="640"
+            height="360"
+            loading="lazy"
+            allowFullScreen
+            referrerPolicy="no-referrer-when-downgrade"
+          />
         </div>
         <Wave fill="#202020" />
       </section>

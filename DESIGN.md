@@ -55,7 +55,7 @@ Manrope em títulos; Inter no conteúdo. Hero de 56 px no desktop, reduzido a 47
 
 ## Layout
 
-Contêiner de 1160 px, cabeçalho de 80 px e hero de aproximadamente 570 px. Desktop em duas colunas; celular empilha texto, contato e retrato. Serviços em quatro colunas abertas, passando a duas; divisórias substituem cards. Curvas vetoriais simples fazem transições entre superfícies. Quebras principais: 1100, 800 e 640 px. Links dos sete serviços, FAQ e conteúdo original permanecem acessíveis.
+Contêiner de 1160 px, cabeçalho de 80 px e hero de aproximadamente 570 px. Desktop em duas colunas; celular empilha texto, contato e retrato. Os sete serviços aparecem em cards clicáveis: quatro colunas no desktop, duas em telas intermediárias e uma no celular, conforme ajuste solicitado pelo usuário. Curvas vetoriais simples fazem transições entre superfícies. Quebras principais: 1100, 800 e 640 px. Links dos sete serviços, FAQ e conteúdo original permanecem acessíveis.
 
 ## Elevation & Depth
 
@@ -67,7 +67,7 @@ Botões em cápsula de 48 px; círculos e curvas grandes com função de composi
 
 ## Components
 
-O hero usa o personagem fictício aprovado, com identificação ilustrativa no site. Serviços são links editoriais. As avaliações preservam os três autores e textos fornecidos, em colunas sem caixas. Menu móvel, contatos fixos, FAQ nativo e foco visível são mantidos. Transições respeitam movimento reduzido.
+O hero usa o personagem fictício aprovado, com identificação ilustrativa no site. Serviços são cards com ícone, descrição e link para a página correspondente. As avaliações preservam os três autores e textos fornecidos, em colunas sem caixas. Menu móvel, contatos fixos, FAQ nativo e foco visível são mantidos. Transições respeitam movimento reduzido.
 
 ## Do's and Don'ts
 

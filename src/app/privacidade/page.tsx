@@ -30,6 +30,12 @@ export default function Privacy() {
         </p>
         <h2>Estatísticas de navegação</h2>
         <p>
+          O mapa incorporado na seção de localização é fornecido pelo Google
+          Maps. Quando ele é carregado, o navegador se conecta ao Google, que
+          pode processar dados técnicos conforme suas próprias políticas de
+          privacidade.
+        </p>
+        <p>
           Se o Google Analytics estiver configurado, o site solicitará sua
           escolha antes de carregar as estatísticas. A recusa não impede o
           acesso nem o contato. Quando autorizado, são registrados dados de
