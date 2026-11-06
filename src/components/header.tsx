@@ -1,8 +1,9 @@
 "use client";
+import { WhatsAppIcon } from "./whatsapp-icon";
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
-import { Menu, X, MessageCircle } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { usePathname } from "next/navigation";
 import { company } from "@/lib/content";
 export function Header() {
@@ -54,12 +55,12 @@ export function Header() {
             ))}
           </nav>
           <a
-            className="header-phone"
+            className="header-phone whatsapp-button"
             href={`https://wa.me/${company.whatsapp}?text=${encodeURIComponent("Olá, encontrei o Rodnei Chaveiro pelo site e gostaria de um atendimento.")}`}
             data-conversion="whatsapp_click"
             data-source="header"
           >
-            <MessageCircle size={17} aria-hidden="true" />
+            <WhatsAppIcon size={17} aria-hidden="true" />
             WhatsApp
           </a>
           <button

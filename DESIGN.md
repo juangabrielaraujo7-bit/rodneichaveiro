@@ -47,7 +47,7 @@ A direção normativa é a imagem rodnei-home-conceito-03.png, aprovada pelo usu
 
 ## Colors
 
-Preto e carvão sustentam as áreas escuras; branco técnico dá respiro. Amarelo vivo de sinalização (#FFDF00) indica contato e formas de apoio, conforme revisão solicitada pelo usuário. Links e detalhes sobre branco usam preto para preservar contraste e eliminar o aspecto dourado. O cinza secundário é ajustado para manter legibilidade; os retratos e fotografias preservam cores naturais. O logo original permanece intacto.
+Preto e carvão sustentam as áreas escuras; branco técnico dá respiro. Amarelo vivo de sinalização (#FFDF00) indica destaques e formas de apoio, conforme revisão solicitada pelo usuário. Botões de WhatsApp usam verde #25D366, texto escuro e símbolo branco da marca. Links e detalhes sobre branco usam preto para preservar contraste e eliminar o aspecto dourado. O cinza secundário é ajustado para manter legibilidade; os retratos e fotografias preservam cores naturais. O logo original permanece intacto.
 
 ## Typography
 
@@ -67,7 +67,7 @@ Botões em cápsula de 48 px; círculos e curvas grandes com função de composi
 
 ## Components
 
-O hero usa o personagem fictício aprovado, com identificação ilustrativa no site. Serviços são cards com imagem realista, descrição e link para a página correspondente. As avaliações preservam os oito autores e textos fornecidos. A seção segue a referência Capucho: Google Reviews e link à esquerda, mural de cards brancos com estrelas amarelas e iniciais à direita. Duas colunas no desktop e uma no celular; mural com subida automática contínua e degradê nas bordas superior e inferior, sem botão de pausar. O movimento suspende ao passar o mouse; foco de teclado e preferência por movimento reduzido permitem leitura estática e rolagem manual. Não exibir nota média ou total geral do perfil sem dados confirmados. Menu móvel, contatos fixos, FAQ nativo e foco visível são mantidos. Transições respeitam movimento reduzido.
+O hero usa o personagem fictício aprovado, com identificação ilustrativa no site. Serviços são cards com imagem realista, descrição e link para a página correspondente. As avaliações preservam os oito autores e textos fornecidos. A seção segue a referência Capucho: Google Reviews e link à esquerda, mural de cards brancos com estrelas amarelas e iniciais à direita. Duas colunas no desktop e uma no celular; mural com subida automática contínua no computador e movimento horizontal no celular (até 640 px), com degradê nas bordas correspondentes, sem botão de pausar. O movimento suspende ao passar o mouse; foco de teclado e preferência por movimento reduzido permitem leitura estática e rolagem manual. Não exibir nota média ou total geral do perfil sem dados confirmados. Menu móvel, contatos fixos, FAQ nativo e foco visível são mantidos. Transições respeitam movimento reduzido.
 
 ## Do's and Don'ts
 

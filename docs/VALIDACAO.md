@@ -82,3 +82,9 @@ Adicionadas as cinco avaliações enviadas: Heloisa7609 Zafra, Ana Rita Godoy, O
 ## Avaliações com movimento e degradê — 06/11/2026
 
 Mural com subida automática contínua em CSS e máscara de transparência no topo e na base, sem botão de pausar. Grupo repetido oculto das tecnologias assistivas e não interativo; grupos com alturas iguais de 1080 px no desktop, mantendo a emenda do loop. Verificados movimento em execução, ausência de botão de pausar, leitura com teclado e preferência por movimento reduzido. Inspeção visual em desktop e celular. `npm run verify` aprovado e três testes de navegador aprovados em 38,6 s.
+
+## Avaliações horizontais no celular e WhatsApp — 06/11/2026
+
+Em telas até 640 px, as avaliações passam automaticamente da direita para a esquerda, com degradê nas laterais e cards de 280 px. Desktop mantém a subida vertical. Grupos repetidos com larguras iguais de 2352 px no celular, assegurando continuidade do loop. Preferência por movimento reduzido desativa a animação.
+
+Todos os links de atendimento por WhatsApp usam verde #25D366, texto escuro e símbolo branco da marca, incluindo cabeçalho, chamadas e barra fixa móvel. Conferidos os cinco botões presentes na home, seus símbolos e cor calculada no navegador. `npm run verify` aprovado e três testes de navegador aprovados em 37,5 s. Verificados direção da animação e ausência de rolagem horizontal da página em 360, 390, 640, 768 e 1440 px. Capturas desktop e celular inspecionadas.

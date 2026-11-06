@@ -1,9 +1,9 @@
 import Link from "next/link";
+import { WhatsAppIcon } from "./whatsapp-icon";
 import Image from "next/image";
 import {
   ArrowUpRight,
   Phone,
-  MessageCircle,
   Clock3,
   CarFront,
   Cpu,
@@ -45,12 +45,12 @@ export function ContactButtons({
   return (
     <div className="contact-buttons">
       <a
-        className="button button-primary"
+        className="button button-primary whatsapp-button"
         href={`https://wa.me/${company.whatsapp}?text=${encodeURIComponent(message)}`}
         data-conversion="whatsapp_click"
         data-source={source}
       >
-        <MessageCircle size={19} aria-hidden="true" />
+        <WhatsAppIcon size={19} aria-hidden="true" />
         {compact ? "Falar com o Rodnei" : "Chamar no WhatsApp"}
         <ArrowUpRight size={18} aria-hidden="true" />
       </a>

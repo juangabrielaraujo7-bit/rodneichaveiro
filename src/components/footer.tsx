@@ -1,6 +1,7 @@
 import Image from "next/image";
+import { WhatsAppIcon } from "./whatsapp-icon";
 import Link from "next/link";
-import { MessageCircle, ArrowUpRight } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import { company, services } from "@/lib/content";
 import { PrivacySettings } from "./analytics";
 export function Footer() {
@@ -85,10 +86,11 @@ export function Footer() {
         </a>
         <a
           href={`https://wa.me/${company.whatsapp}?text=${encodeURIComponent("Olá, encontrei o Rodnei Chaveiro pelo site e gostaria de um atendimento.")}`}
+          className="whatsapp-button"
           data-conversion="whatsapp_click"
           data-source="mobile_fixed"
         >
-          <MessageCircle size={19} aria-hidden="true" />
+          <WhatsAppIcon size={19} aria-hidden="true" />
           WhatsApp
         </a>
       </div>

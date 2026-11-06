@@ -8,6 +8,22 @@
   --muted: #626262;
   --line: #d5d5d5;
 }
+a.whatsapp-button,
+.final-cta a.whatsapp-button,
+.mobile-contact a.whatsapp-button:last-child {
+  background: #25d366;
+  color: #082b16;
+  border-color: #25d366;
+}
+a.whatsapp-button:hover,
+.final-cta a.whatsapp-button:hover,
+.mobile-contact a.whatsapp-button:last-child:hover {
+  background: #1fbd5b;
+  border-color: #1fbd5b;
+}
+a.whatsapp-button .whatsapp-icon {
+  color: #fff;
+}
 .final-cta {
   background: #202020;
   color: #f7f7f7;
@@ -987,8 +1003,10 @@
     transform: translateY(-50%);
   }
 }
-.reviews-wall:hover .reviews-loop {
-  animation-play-state: paused;
+@media (hover: hover) and (pointer: fine) {
+  .reviews-wall:hover .reviews-loop {
+    animation-play-state: paused;
+  }
 }
 .reviews-wall:focus-within {
   overflow-y: auto;
@@ -1082,14 +1100,55 @@
   .reviews-summary h2 {
     font-size: 27px;
   }
+  .reviews-wall {
+    height: auto;
+    min-width: 0;
+    overscroll-behavior-x: contain;
+    mask-image: linear-gradient(
+      to right,
+      transparent,
+      #000 6%,
+      #000 94%,
+      transparent
+    );
+  }
   .concept-reviews .reviews-grid {
-    columns: 1;
+    display: flex;
+    columns: auto;
+    gap: 14px;
+    padding-right: 14px;
   }
   .reviews-loop {
-    animation-duration: 160s;
+    width: max-content;
+    flex-direction: row;
+    animation: reviews-slide 100s linear infinite;
   }
   .concept-reviews .review-card {
+    flex: 0 0 280px;
+    width: 280px;
+    min-height: 310px;
+    margin: 0;
     padding: 22px;
+  }
+  .concept-reviews .review-card figcaption {
+    margin-top: auto;
+    padding-top: 24px;
+  }
+  .reviews-wall:focus-within {
+    overflow-x: auto;
+    overflow-y: hidden;
+    mask-image: none;
+  }
+}
+@keyframes reviews-slide {
+  to {
+    transform: translateX(-50%);
+  }
+}
+@media (max-width: 640px) and (prefers-reduced-motion: reduce) {
+  .reviews-wall {
+    overflow-x: auto;
+    overflow-y: hidden;
   }
 }
 @media (prefers-reduced-motion: reduce) {
