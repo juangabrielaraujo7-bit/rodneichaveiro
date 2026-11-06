@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import { Check, ArrowRight } from "lucide-react";
 import { services } from "@/lib/content";
 import { pageMetadata } from "@/lib/site";
@@ -8,7 +9,6 @@ import {
   ContactButtons,
   FaqList,
   FinalCta,
-  Icon,
   ServiceCard,
 } from "@/components/ui";
 import { BreadcrumbSchema } from "@/components/schema";
@@ -46,9 +46,17 @@ export default async function ServicePage({
             <ContactButtons message={item.message} source={item.slug} />
           </div>
           <div className="service-emblem">
-            <Icon name={item.icon} size={100} />
+            <Image
+              src={`/images/services/${item.slug}.webp`}
+              alt={`Imagem ilustrativa de ${item.name.toLocaleLowerCase("pt-BR")}`}
+              width={640}
+              height={640}
+              className="service-detail-image"
+              sizes="(max-width: 640px) 85vw, 430px"
+              priority
+            />
             <span>{item.name}</span>
-            <small>Freguesia do Ó · São Paulo</small>
+            <small>Imagem ilustrativa · Freguesia do Ó</small>
           </div>
         </section>
       </div>

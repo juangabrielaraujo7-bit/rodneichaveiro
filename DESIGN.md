@@ -2,14 +2,15 @@
 name: Rodnei Chaveiro
 description: Sistema visual implementado para a demonstração do site.
 colors:
-  graphite: "#1E1E22"
-  ivory: "#F7F5EC"
-  brass: "#B08A4A"
+  graphite: "#142747"
+  ivory: "#F7FAFF"
+  blue: "#1453DD"
+  yellow: "#FFD32C"
   white: "#FFFFFF"
-  muted: "#61615E"
-  line: "#DCDACF"
-  soft-surface: "#EEECE3"
-  brass-hover: "#C19B5C"
+  muted: "#4F607B"
+  line: "#D3DFF3"
+  soft-surface: "#EAF1FF"
+  yellow-hover: "#FFE16B"
 typography:
   display:
     fontFamily: "Manrope Variable, sans-serif"
@@ -43,13 +44,13 @@ spacing:
   section-mobile: "65px"
 components:
   button-primary:
-    backgroundColor: "{colors.brass}"
+    backgroundColor: "{colors.yellow}"
     textColor: "{colors.graphite}"
     rounded: "{rounded.button}"
     padding: "15px 20px"
     typography: "{typography.button}"
   button-primary-hover:
-    backgroundColor: "{colors.brass-hover}"
+    backgroundColor: "{colors.yellow-hover}"
   button-dark:
     backgroundColor: "{colors.graphite}"
     textColor: "{colors.ivory}"
@@ -72,17 +73,17 @@ Nome descritivo documental, inferido da implementação; não é uma nova propos
 
 **Key Characteristics:**
 - Superfícies claras e contraste grafite.
-- Latão discreto nos contatos e detalhes.
+- Azul e amarelo vivos, escolhidos pelo usuário.
 - Tipografia legível e divisórias finas.
 - Ícones Lucide com traço consistente.
 
 ## Colors
 
 ### Primary
-Latão orienta ações e marcações de localização. Grafite sobre latão mantém contraste nos botões.
+Azul vivo orienta títulos, navegação e grandes superfícies. Amarelo destaca ações com texto escuro; azul com texto branco acompanha chamadas sobre fundo amarelo. A combinação foi escolhida pelo usuário na revisão. O latão permanece apenas no logotipo original.
 
 ### Neutral
-Marfim é a superfície principal; grafite atende textos e seções escuras; branco destaca a disponibilidade. A superfície suave separa grupos e o tom muted atende textos secundários.
+Um branco frio é a superfície principal; azul atende seções de destaque e o rodapé usa azul profundo; branco destaca a disponibilidade. A superfície suave separa grupos e o tom muted atende textos secundários.
 
 ## Typography
 
@@ -90,7 +91,7 @@ Manrope conduz títulos; Inter atende leitura, navegação e controles. Ambas s�
 
 ## Layout
 
-Contêiner central de até 1240 px, com largura disponível menos 112 px; passa a margens de 32 px abaixo de 1150 px e 20 px no celular. Quebras observadas: 1500, 1150, 900 e 640 px. Seções comuns usam 96 px de respiro vertical no desktop e 65 px no celular. Grades de serviços passam de quatro para três e depois duas colunas; o último serviço ocupa a largura restante. Páginas internas usam composição própria dentro do mesmo sistema.
+Contêiner central de até 1240 px, com largura disponível menos 112 px; passa a margens de 32 px abaixo de 1150 px e 20 px no celular. Quebras observadas: 1500, 1150, 900 e 640 px. Seções comuns usam 96 px de respiro vertical no desktop e 65 px no celular. Grades de serviços passam de quatro para duas colunas e depois uma no celular; o último serviço ocupa a largura restante no desktop. Páginas internas usam composição própria dentro do mesmo sistema.
 
 ## Elevation & Depth
 
@@ -102,9 +103,9 @@ Botões discretamente arredondados; cards quase retos. Linhas de 1 px definem se
 
 ## Components
 
-Botões principais têm fundo latão, texto grafite e altura mínima de 52 px. Os secundários usam borda, e a variante escura acompanha fundos claros. Hover altera superfície em 0,2 s; foco usa contorno de 2 px, deslocado 5 px.
+Botões principais têm fundo amarelo, texto escuro e altura mínima de 52 px. Os secundários usam borda, e a variante escura acompanha fundos claros. Hover altera superfície em 0,2 s; foco usa contorno de 2 px, deslocado 5 px.
 
-Cards de serviços são links completos, com ícone, título, texto e seta. O primeiro é grafite. Navegação tem sublinhado animado por transformação; no celular há menu recolhível e barra fixa de contatos. FAQ usa `details`/`summary` nativos. O monograma tem uma chegada de 0,8 s somente no desktop; `prefers-reduced-motion` desativa movimentos.
+Cards de serviços são links completos, com imagem de produto realista e transparente, título, texto e seta. O primeiro é azul. As imagens são ilustrativas, não trabalhos comprovados; o hover eleva levemente o objeto. Navegação tem sublinhado animado por transformação; no celular há menu recolhível e barra fixa de contatos. FAQ usa `details`/`summary` nativos. O monograma tem uma chegada de 0,8 s somente no desktop; `prefers-reduced-motion` desativa movimentos.
 
 ## Do's and Don'ts
 
@@ -117,3 +118,4 @@ Cards de serviços são links completos, com ícone, título, texto e seta. O pr
 - Don't usar dourado metálico, reflexos 3D ou gradientes brilhantes na marca.
 - Don't apresentar o painel de marca como fotografia de um trabalho.
 - Don't inventar provas comerciais para preencher espaço visual.
+

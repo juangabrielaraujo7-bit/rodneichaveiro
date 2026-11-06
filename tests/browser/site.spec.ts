@@ -1,5 +1,21 @@
-import { test, expect } from "@playwright/test";
+import { test, expect, type Page } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
+async function loadImages(page: Page) {
+  await page.emulateMedia({reducedMotion:'reduce'});
+  for (const image of await page.locator("img").all()) {
+    await image.scrollIntoViewIfNeeded();
+    await expect
+      .poll(() =>
+        image.evaluate(
+          (img) =>
+            img instanceof HTMLImageElement &&
+            img.complete &&
+            img.naturalWidth > 0,
+        ),
+      )
+      .toBe(true);
+  }
+}
 const serviceSlugs = [
   "chaveiro-24-horas",
   "chaveiro-automotivo",
@@ -85,6 +101,7 @@ test("responsive layouts, mobile navigation, FAQ and screenshots", async ({
       `overflow ${width}`,
     ).toBe(true);
     if (width === 1440 || width === 390) {
+      await loadImages(page);
       await page.locator(".site-footer").scrollIntoViewIfNeeded();
       await expect
         .poll(() =>
@@ -110,6 +127,7 @@ test("responsive layouts, mobile navigation, FAQ and screenshots", async ({
         path: `.impeccable/review/${width === 1440 ? "desktop" : "mobile"}-viewport.png`,
         animations: "disabled",
       });
+      await page.locator('#servicos').screenshot({path:`.impeccable/review/services-${width===1440?'desktop':'mobile'}.png`,animations:'disabled'});
     }
   }
   await page.setViewportSize({ width: 390, height: 844 });
@@ -180,6 +198,7 @@ test("404, robots, sitemap, schema, OG and redirects", async ({
   expect(redirect.headers().location).toBe("/");
   await expect(page.locator("img").first()).toBeVisible();
   await page.locator(".site-footer").scrollIntoViewIfNeeded();
+  await loadImages(page);
   await expect
     .poll(
       async () =>

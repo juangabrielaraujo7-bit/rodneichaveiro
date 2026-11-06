@@ -1,37 +1,146 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-06T17:45:00Z",
+  "generatedAt": "2026-11-06T17:59:38.7695944Z",
   "title": "Design System: Rodnei Chaveiro",
   "extensions": {
     "colorMeta": {
-      "graphite": {"role":"neutral","displayName":"Grafite","tonalRamp":["oklch(15% 0.006 285)","oklch(26% 0.006 285)","oklch(37% 0.006 285)","oklch(49% 0.006 285)","oklch(60% 0.006 285)","oklch(72% 0.006 285)","oklch(83% 0.006 285)","oklch(95% 0.006 285)"]},
-      "ivory": {"role":"neutral","displayName":"Marfim","tonalRamp":["oklch(15% 0.012 95)","oklch(26% 0.012 95)","oklch(37% 0.012 95)","oklch(49% 0.012 95)","oklch(60% 0.012 95)","oklch(72% 0.012 95)","oklch(83% 0.012 95)","oklch(95% 0.012 95)"]},
-      "brass": {"role":"primary","displayName":"Latão suave","tonalRamp":["oklch(15% 0.09 80)","oklch(26% 0.09 80)","oklch(37% 0.09 80)","oklch(49% 0.09 80)","oklch(60% 0.09 80)","oklch(72% 0.09 80)","oklch(83% 0.09 80)","oklch(95% 0.09 80)"]}
+      "yellow": {
+        "displayName": "Amarelo vivo",
+        "tonalRamp": [
+          "oklch(20% 0.02 95)",
+          "oklch(30% 0.05 95)",
+          "oklch(40% 0.08 95)",
+          "oklch(50% 0.11 95)",
+          "oklch(60% 0.14 95)",
+          "oklch(72% 0.16 95)",
+          "oklch(84% 0.16 95)",
+          "oklch(95% 0.05 95)"
+        ],
+        "role": "primary"
+      },
+      "blue": {
+        "displayName": "Azul vivo",
+        "tonalRamp": [
+          "oklch(20% 0.04 262)",
+          "oklch(30% 0.09 262)",
+          "oklch(40% 0.16 262)",
+          "oklch(50% 0.21 262)",
+          "oklch(60% 0.19 262)",
+          "oklch(72% 0.14 262)",
+          "oklch(84% 0.07 262)",
+          "oklch(95% 0.02 262)"
+        ],
+        "role": "primary"
+      }
     },
-    "typographyMeta": {"display":{"displayName":"Título principal","purpose":"Título da home; variações por página estão no CSS."}},
+    "typographyMeta": {
+      "display": {
+        "displayName": "Título principal",
+        "purpose": "Título da home; variações por página estão no CSS."
+      }
+    },
     "shadows": [
-      {"name":"availability","value":"0 9px 25px #1e1e220c","purpose":"Aviso de disponibilidade."},
-      {"name":"consent","value":"0 10px 35px #1e1e2215","purpose":"Consentimento quando GA4 estiver configurado."}
+      {
+        "name": "availability",
+        "value": "0 9px 25px #1e1e220c",
+        "purpose": "Aviso de disponibilidade."
+      },
+      {
+        "name": "consent",
+        "value": "0 10px 35px #1e1e2215",
+        "purpose": "Consentimento quando GA4 estiver configurado."
+      }
     ],
     "motion": [
-      {"name":"state","value":"0.2s","purpose":"Mudança de superfície e sublinhado."},
-      {"name":"brand-arrival","value":"0.8s cubic-bezier(0.16, 1, 0.3, 1)","purpose":"Monograma desktop; desativado com reduced motion."}
+      {
+        "name": "state",
+        "value": "0.2s",
+        "purpose": "Mudança de superfície e sublinhado."
+      },
+      {
+        "name": "brand-arrival",
+        "value": "0.8s cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Monograma desktop; desativado com reduced motion."
+      }
     ],
-    "breakpoints": [{"name":"wide","value":"1500px"},{"name":"compact-desktop","value":"1150px"},{"name":"navigation-mobile","value":"900px"},{"name":"phone","value":"640px"}]
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1500px"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "1150px"
+      },
+      {
+        "name": "navigation-mobile",
+        "value": "900px"
+      },
+      {
+        "name": "phone",
+        "value": "640px"
+      }
+    ]
   },
   "components": [
-    {"name":"WhatsApp","kind":"button","refersTo":"button-primary","description":"Ação principal de contato.","html":"<button class=\"ds-primary\">Chamar no WhatsApp</button>","css":".ds-primary{background:var(--brass,#B08A4A);color:var(--ink,#1E1E22);border:0;border-radius:4px;padding:15px 20px;min-height:52px;font:600 13px/1.3 'Inter Variable',sans-serif;transition:background .2s}.ds-primary:hover{background:#C19B5C}.ds-primary:focus-visible{outline:2px solid #84622f;outline-offset:5px}"},
-    {"name":"Telefone","kind":"button","description":"Contato secundário com borda.","html":"<button class=\"ds-secondary\">Ligar agora</button>","css":".ds-secondary{background:transparent;color:var(--ink,#1E1E22);border:1px solid #b8b5aa;border-radius:4px;padding:15px 20px;min-height:52px;font:600 13px/1.3 'Inter Variable',sans-serif;transition:background .2s}.ds-secondary:hover{background:#eeebe1}.ds-secondary:focus-visible{outline:2px solid #84622f;outline-offset:5px}"},
-    {"name":"Botão escuro","kind":"button","refersTo":"button-dark","description":"Ação de localização em superfície clara.","html":"<button class=\"ds-dark\">Abrir rota no Google Maps</button>","css":".ds-dark{background:var(--ink,#1E1E22);color:var(--paper,#F7F5EC);border:0;border-radius:4px;padding:15px 20px;min-height:52px;font:600 13px/1.3 'Inter Variable',sans-serif;transition:background .2s}.ds-dark:hover{background:#39393d}.ds-dark:focus-visible{outline:2px solid #84622f;outline-offset:5px}"},
-    {"name":"Serviço","kind":"card","refersTo":"service-card","description":"Link de navegação por serviço.","html":"<a class=\"ds-card\" href=\"#servico\"><strong>Chaveiro residencial</strong><p>Soluções para as chaves e fechaduras da sua casa.</p><span>Conhecer o serviço</span></a>","css":".ds-card{display:flex;flex-direction:column;gap:12px;max-width:240px;min-height:210px;padding:26px;border:1px solid var(--line,#DCDACF);border-radius:5px;color:var(--ink,#1E1E22);background:var(--paper,#F7F5EC);text-decoration:none;transition:background .2s,border-color .2s}.ds-card strong{font:600 17px/1.3 'Manrope Variable',sans-serif}.ds-card p{font:400 12px/1.8 'Inter Variable',sans-serif;color:var(--muted,#61615E);margin:0}.ds-card span{font:400 10px 'Inter Variable',sans-serif;margin-top:auto;padding-top:23px}.ds-card:hover{background:#eeeae0;border-color:#b6ad9c}.ds-card:focus-visible{outline:2px solid #84622f;outline-offset:5px}"},
-    {"name":"Navegação","kind":"nav","description":"Link com sublinhado por transformação.","html":"<nav><a class=\"ds-nav\" href=\"#servicos\">Serviços</a></nav>","css":".ds-nav{position:relative;display:inline-block;padding:15px 0;color:var(--ink,#1E1E22);font:500 13px 'Inter Variable',sans-serif;text-decoration:none}.ds-nav:after{content:'';position:absolute;bottom:9px;left:0;width:100%;height:1px;background:var(--brass,#B08A4A);transform:scaleX(0);transform-origin:left;transition:transform .2s}.ds-nav:hover:after{transform:scaleX(1)}.ds-nav:focus-visible{outline:2px solid #84622f;outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-nav:after{transition:none}}"}
+    {
+      "name": "WhatsApp",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Ação principal de contato.",
+      "html": "<button class=\"ds-primary\">Chamar no WhatsApp</button>",
+      "css": ".ds-primary{background:var(--yellow,#FFD32C);color:var(--ink,#142747);border:0;border-radius:4px;padding:15px 20px;min-height:52px;font:600 13px/1.3 'Inter Variable',sans-serif;transition:background .2s}.ds-primary:hover{background:#FFE16B}.ds-primary:focus-visible{outline:2px solid #1453dd;outline-offset:5px}"
+    },
+    {
+      "name": "Telefone",
+      "kind": "button",
+      "description": "Contato secundário com borda.",
+      "html": "<button class=\"ds-secondary\">Ligar agora</button>",
+      "css": ".ds-secondary{background:transparent;color:var(--ink,#142747);border:1px solid #b8b5aa;border-radius:4px;padding:15px 20px;min-height:52px;font:600 13px/1.3 'Inter Variable',sans-serif;transition:background .2s}.ds-secondary:hover{background:#eeebe1}.ds-secondary:focus-visible{outline:2px solid #1453dd;outline-offset:5px}"
+    },
+    {
+      "name": "Botão escuro",
+      "kind": "button",
+      "refersTo": "button-dark",
+      "description": "Ação de localização em superfície clara.",
+      "html": "<button class=\"ds-dark\">Abrir rota no Google Maps</button>",
+      "css": ".ds-dark{background:var(--ink,#142747);color:var(--paper,#F7FAFF);border:0;border-radius:4px;padding:15px 20px;min-height:52px;font:600 13px/1.3 'Inter Variable',sans-serif;transition:background .2s}.ds-dark:hover{background:#39393d}.ds-dark:focus-visible{outline:2px solid #1453dd;outline-offset:5px}"
+    },
+    {
+      "name": "Serviço",
+      "kind": "card",
+      "refersTo": "service-card",
+      "description": "Link de navegação por serviço.",
+      "html": "<a class=\"ds-card\" href=\"#servico\"><strong>Chaveiro residencial</strong><p>Soluções para as chaves e fechaduras da sua casa.</p><span>Conhecer o serviço</span></a>",
+      "css": ".ds-card{display:flex;flex-direction:column;gap:12px;max-width:240px;min-height:210px;padding:26px;border:1px solid var(--line,#D3DFF3);border-radius:5px;color:var(--ink,#142747);background:var(--paper,#F7FAFF);text-decoration:none;transition:background .2s,border-color .2s}.ds-card strong{font:600 17px/1.3 'Manrope Variable',sans-serif}.ds-card p{font:400 12px/1.8 'Inter Variable',sans-serif;color:var(--muted,#4F607B);margin:0}.ds-card span{font:400 10px 'Inter Variable',sans-serif;margin-top:auto;padding-top:23px}.ds-card:hover{background:#edf3ff;border-color:#b6ad9c}.ds-card:focus-visible{outline:2px solid #1453dd;outline-offset:5px}"
+    },
+    {
+      "name": "Navegação",
+      "kind": "nav",
+      "description": "Link com sublinhado por transformação.",
+      "html": "<nav><a class=\"ds-nav\" href=\"#servicos\">Serviços</a></nav>",
+      "css": ".ds-nav{position:relative;display:inline-block;padding:15px 0;color:var(--ink,#142747);font:500 13px 'Inter Variable',sans-serif;text-decoration:none}.ds-nav:after{content:'';position:absolute;bottom:9px;left:0;width:100%;height:1px;background:var(--yellow,#FFD32C);transform:scaleX(0);transform-origin:left;transition:transform .2s}.ds-nav:hover:after{transform:scaleX(1)}.ds-nav:focus-visible{outline:2px solid #1453dd;outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-nav:after{transition:none}}"
+    }
   ],
   "narrative": {
-    "northStar":"Precisão local",
-    "overview":"Nome descritivo documental, inferido da implementação; não é uma nova proposta de identidade. O briefing definiu a marca e concedeu autonomia para a interface. A demonstração usa os SVGs fornecidos, com remoção apenas de área vazia nas aplicações horizontais para web.",
-    "keyCharacteristics":["Superfícies claras e contraste grafite.","Latão discreto nos contatos e detalhes.","Tipografia legível e divisórias finas.","Ícones Lucide com traço consistente."],
-    "rules":[],
-    "dos":["Do preservar os SVGs e a paleta fornecidos.","Do manter foco visível, texto legível e contatos acessíveis.","Do usar fotografias e avaliações autênticas quando fornecidas."],
-    "donts":["Don't usar dourado metálico, reflexos 3D ou gradientes brilhantes na marca.","Don't apresentar o painel de marca como fotografia de um trabalho.","Don't inventar provas comerciais para preencher espaço visual."]
+    "northStar": "Precisão local",
+    "overview": "Nome descritivo documental, inferido da implementação; não é uma nova proposta de identidade. O briefing definiu a marca e concedeu autonomia para a interface. A demonstração usa os SVGs fornecidos, com remoção apenas de área vazia nas aplicações horizontais para web.",
+    "keyCharacteristics": [
+      "Superfícies claras e contraste grafite.",
+      "Azul e amarelo vivos, escolhidos pelo usuário.",
+      "Tipografia legível e divisórias finas.",
+      "Ícones Lucide com traço consistente."
+    ],
+    "rules": [],
+    "dos": [
+      "Do preservar os SVGs e a paleta fornecidos.",
+      "Do manter foco visível, texto legível e contatos acessíveis.",
+      "Do usar fotografias e avaliações autênticas quando fornecidas."
+    ],
+    "donts": [
+      "Don't usar dourado metálico, reflexos 3D ou gradientes brilhantes na marca.",
+      "Don't apresentar o painel de marca como fotografia de um trabalho.",
+      "Don't inventar provas comerciais para preencher espaço visual."
+    ]
   }
 }

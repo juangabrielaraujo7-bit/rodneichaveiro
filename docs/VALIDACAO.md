@@ -1,5 +1,11 @@
 # Validação — 6 de novembro de 2026
 
+## Revisão visual: azul, amarelo e imagens dos serviços
+
+O usuário escolheu azul e amarelo e autorizou ilustrações geradas por IA. Sete originais PNG tiveram o canal alpha verificado; sete versões WebP foram geradas para o site, preservando transparência, com aproximadamente 59–114 KB cada. Build, lint, TypeScript e testes de publicação passaram após a implementação. A conferência de navegador identificou um link amarelo com contraste de 4,41:1 sobre azul; o tom desse texto foi clareado antes da confirmação final. Os resultados Lighthouse abaixo pertencem à versão inicial e não devem ser apresentados como uma medição nova da revisão visual.
+
+Confirmação final da revisão: **3 cenários Playwright aprovados em 32,4 segundos**, incluindo as 16 páginas, axe sem violações nos critérios verificados, cinco larguras sem overflow, carregamento de imagens, contatos, navegação e FAQ. Capturas de computador e celular foram conferidas, incluindo recortes próprios da seção de serviços.
+
 ## Resultado observado
 
 - Build de produção Next.js 16.4.5: concluído, com páginas estáticas e serviços pré-renderizados.

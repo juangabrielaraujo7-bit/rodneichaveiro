@@ -8,12 +8,12 @@ export default function Image() {
       style={{
         width: "100%",
         height: "100%",
-        background: "#F7F5EC",
+        background: "#F7FAFF",
         display: "flex",
         flexDirection: "column",
         justifyContent: "space-between",
         padding: "64px 76px",
-        color: "#1E1E22",
+        color: "#142747",
         fontFamily: "sans-serif",
       }}
     >
@@ -32,7 +32,7 @@ export default function Image() {
           <strong style={{ fontSize: 38, letterSpacing: 5 }}>
             RODNEI CHAVEIRO
           </strong>
-          <span style={{ fontSize: 20, letterSpacing: 4, color: "#765C31" }}>
+          <span style={{ fontSize: 20, letterSpacing: 4, color: "#1453DD" }}>
             FREGUESIA DO Ó
           </span>
         </div>
@@ -43,6 +43,7 @@ export default function Image() {
           fontSize: 65,
           lineHeight: 1.1,
           letterSpacing: -2,
+          color: "#1453DD",
         }}
       >
         Chaveiro na Freguesia do Ó<br />
@@ -52,7 +53,7 @@ export default function Image() {
         style={{
           display: "flex",
           justifyContent: "space-between",
-          borderTop: "1px solid #CFCABE",
+          borderTop: "1px solid #D3DFF3",
           paddingTop: 24,
           fontSize: 24,
         }}

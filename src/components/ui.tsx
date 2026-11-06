@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import {
   ArrowUpRight,
   Phone,
@@ -44,7 +45,7 @@ export function ContactButtons({
   return (
     <div className="contact-buttons">
       <a
-        className="button button-brass"
+        className="button button-primary"
         href={`https://wa.me/${company.whatsapp}?text=${encodeURIComponent(message)}`}
         data-conversion="whatsapp_click"
         data-source={source}
@@ -77,8 +78,17 @@ export function ServiceCard({
       href={`/${service.slug}`}
       className={`service-card${featured ? " featured" : ""}`}
     >
-      <Icon name={service.icon} size={32} />
-      <div>
+      <div className="service-image-wrap" aria-hidden="true">
+        <Image
+          className="service-image"
+          src={`/images/services/${service.slug}.webp`}
+          alt=""
+          width={640}
+          height={640}
+          sizes="(max-width: 640px) 80vw, (max-width: 1150px) 40vw, 340px"
+        />
+      </div>
+      <div className="service-card-copy">
         <h3>{service.name}</h3>
         <p>{service.short}</p>
       </div>

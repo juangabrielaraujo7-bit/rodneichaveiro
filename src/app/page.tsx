@@ -111,6 +111,7 @@ export default function Home() {
             />
           ))}
         </div>
+        <p className="service-image-note">Imagens ilustrativas dos serviços.</p>
       </section>
       <section className="difference">
         <div className="container difference-grid">

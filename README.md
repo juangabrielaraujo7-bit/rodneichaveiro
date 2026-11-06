@@ -48,6 +48,7 @@ Sem IDs do proprietário, a entrega valida o preparo e os links; não comprova r
 - Publicação segura: `src/lib/publishing.mjs`.
 - Metadados: `src/lib/site.ts` e Metadata API de cada página.
 - Não adicionar `aggregateRating`, preços, tempos de chegada ou garantias sem evidência.
+- Imagens ilustrativas dos serviços: originais em `assets/services/`, WebP otimizados em `public/images/services/`, prompts e origem em `assets/services/manifest.json`. Azul e amarelo foram escolhidos pelo usuário na revisão; o logo original foi preservado. Veja `docs/IMAGENS-SERVICOS.md`.
 - Ao receber fotos, use `next/image` com medidas explícitas, alt objetivo e formatos modernos. Não marcar fotos novas como trabalho realizado sem confirmação. A imagem hero deve receber prioridade; as demais devem carregar sob demanda.
 
 Consulte [pesquisa e decisões SEO](docs/SEO.md), [pendências e melhorias](docs/PENDENCIAS.md) e [validação](docs/VALIDACAO.md).

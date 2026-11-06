@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   icons: { icon: "/brand/favicon.svg", apple: "/brand/apple-touch-icon.png" },
 };
 export const viewport: Viewport = {
-  themeColor: "#1E1E22",
+  themeColor: "#1453DD",
   width: "device-width",
   initialScale: 1,
 };

@@ -1,5 +1,7 @@
 # Direção aplicada
 
+Revisão atual: o usuário solicitou cores mais animadas e escolheu **azul e amarelo**. Interface em azul #1453DD e amarelo #FFD32C sobre fundos claros frios; o logotipo original permanece preservado. Cards e páginas de serviços usam objetos fotorealistas gerados por IA, com transparência real e tratamento de flutuação. São imagens ilustrativas, identificadas na interface, e não registros de trabalhos do Rodnei. O manifesto de imagens contém todos os prompts e a origem. As referências de marfim/grafite abaixo descrevem a primeira versão e foram substituídas na interface pela nova escolha.
+
 Identidade já definida pelo briefing e pelos SVGs fornecidos. Não há nova proposta de marca nem composição gerada por IA. A autonomia técnica e visual foi concedida explicitamente pelo usuário; o desenvolvimento segue diretamente em código.
 
 ## Primeira tela
