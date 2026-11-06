@@ -2,9 +2,9 @@
 :root {
   --ink: #101010;
   --paper: #f7f7f7;
-  --yellow: #d9a514;
-  --blue: #8c6600;
-  --accent: #8c6600;
+  --yellow: #ffdf00;
+  --blue: #101010;
+  --accent: #101010;
   --muted: #626262;
   --line: #d5d5d5;
 }
@@ -19,11 +19,11 @@
   color: #dedede;
 }
 .final-cta .button-primary {
-  background: #d9a514;
+  background: #ffdf00;
   color: #101010;
 }
 .final-cta .button-primary:hover {
-  background: #e4b62d;
+  background: #fff04a;
 }
 .final-cta .button-outline {
   color: #fff;
@@ -49,7 +49,7 @@
   gap: 25px;
 }
 .header-phone {
-  background: #d9a514;
+  background: #ffdf00;
   color: #101010;
   padding: 10px 18px;
   border-radius: 28px;
@@ -66,7 +66,7 @@
   border-color: #444;
 }
 .desktop-nav a::after {
-  background: #d9a514;
+  background: #ffdf00;
 }
 .button {
   border-radius: 28px;
@@ -74,11 +74,11 @@
   min-height: 48px;
 }
 .button-primary {
-  background: #d9a514;
+  background: #ffdf00;
   color: #101010;
 }
 .button-primary:hover {
-  background: #e4b62d;
+  background: #fff04a;
 }
 .button-outline {
   border-color: #999;
@@ -122,9 +122,9 @@
   border-color: #888;
 }
 .mobile-contact a:last-child {
-  background: #d9a514;
+  background: #ffdf00;
   color: #101010;
-  border-color: #d9a514;
+  border-color: #ffdf00;
 }
 .approved-home {
   overflow: hidden;
@@ -187,7 +187,7 @@
   max-width: 630px;
 }
 .concept-hero h1 span {
-  color: #d9a514;
+  color: #ffdf00;
   display: inline;
 }
 .concept-hero-copy > p {
@@ -220,7 +220,7 @@
 .concept-trust svg {
   width: 16px;
   height: 16px;
-  color: #d9a514;
+  color: #ffdf00;
 }
 .concept-person {
   position: relative;
@@ -234,7 +234,7 @@
   width: 87%;
   aspect-ratio: 1;
   border-radius: 50%;
-  background: #d9a514;
+  background: #ffdf00;
 }
 .concept-person > img {
   position: absolute;
@@ -301,11 +301,11 @@
   padding-top: 24px;
   font-size: 12px;
   font-weight: 600;
-  color: #765600;
+  color: #101010;
 }
 .home-service-card:hover {
-  background: #fffaf0;
-  border-color: #b58912;
+  background: #fffde5;
+  border-color: #101010;
 }
 .home-service-card:hover h3 {
   text-decoration: underline;
@@ -318,7 +318,7 @@
   gap: 60px;
 }
 .home-location-grid > div > svg {
-  color: #8c6600;
+  color: #101010;
   margin-bottom: 18px;
 }
 .home-google-map {
@@ -371,7 +371,7 @@
   font: 750 125px/1 var(--heading);
   letter-spacing: -0.045em;
   color: transparent;
-  -webkit-text-stroke: 1.5px #d9a514;
+  -webkit-text-stroke: 1.5px #ffdf00;
   border-right: 1px solid #888;
   padding-right: 40px;
 }
@@ -403,7 +403,7 @@
   width: 460px;
   height: 330px;
   border-radius: 0 0 80% 0;
-  background: #d9a514;
+  background: #ffdf00;
 }
 .automotive-photo {
   width: 350px;
@@ -514,7 +514,7 @@
 }
 .concept-reviews .review-stars {
   order: -1;
-  color: #8c6600;
+  color: #101010;
   margin: 0 0 12px;
   gap: 2px;
 }
@@ -547,7 +547,7 @@
 .concept-regions li {
   font-size: 14px;
   padding: 0 30px;
-  border-right: 1px solid #d9a514;
+  border-right: 1px solid #ffdf00;
 }
 .concept-regions li:first-child {
   padding-left: 0;
@@ -594,7 +594,7 @@
   padding: 16px 0;
 }
 .concept-faq summary span {
-  color: #d9a514;
+  color: #ffdf00;
 }
 .concept-faq .faq-list p {
   color: #ddd;
@@ -642,7 +642,7 @@
   height: 490px;
   right: -220px;
   top: 0;
-  background: #d9a514;
+  background: #ffdf00;
   border-radius: 50%;
 }
 @media (max-width: 1100px) {

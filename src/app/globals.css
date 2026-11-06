@@ -2,17 +2,17 @@
 @theme {
   --color-graphite: #1e1e22;
   --color-ivory: #f7f5ec;
-  --color-brass: #b08a4a;
-  --color-blue: #8c6600;
-  --color-yellow: #d9a514;
+  --color-brass: #ffdf00;
+  --color-blue: #101010;
+  --color-yellow: #ffdf00;
   --font-sans: "Inter Variable", sans-serif;
 }
 :root {
   --ink: #101010;
   --paper: #f7f7f7;
-  --blue: #8c6600;
-  --yellow: #d9a514;
-  --accent: #8c6600;
+  --blue: #101010;
+  --yellow: #ffdf00;
+  --accent: #101010;
   --muted: #626262;
   --line: #d5d5d5;
   --heading: "Manrope Variable", sans-serif;
@@ -35,7 +35,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 ::selection {
-  background: #ead8a2;
+  background: #ffef80;
   color: var(--ink);
 }
 a {
@@ -64,7 +64,8 @@ summary {
 a:focus-visible,
 button:focus-visible,
 summary:focus-visible {
-  outline: 2px solid #8c6600;
+  outline: 2px solid #101010;
+  box-shadow: 0 0 0 7px #ffdf00;
 }
 button {
   caret-color: var(--accent);
@@ -110,7 +111,7 @@ h3 {
 }
 h1 span,
 h2 span {
-  color: #8c6600;
+  color: #101010;
 }
 p {
   max-width: 66ch;
@@ -155,7 +156,7 @@ ul {
 .status-dot {
   width: 5px;
   height: 5px;
-  background: #d9a514;
+  background: #ffdf00;
   border-radius: 50%;
 }
 .site-header {
@@ -210,7 +211,7 @@ ul {
   white-space: nowrap;
 }
 .header-phone svg {
-  color: #8c6600;
+  color: #101010;
 }
 .menu-button {
   display: none;
@@ -239,7 +240,7 @@ ul {
   font-weight: 600;
 }
 .hero h1 span {
-  color: #8c6600;
+  color: #101010;
   display: block;
 }
 .hero-visual {
@@ -339,7 +340,7 @@ ul {
   color: var(--ink);
 }
 .button-primary:hover {
-  background: #e4b62d;
+  background: #fff04a;
 }
 .button-outline {
   border: 1px solid #aaaaaa;
@@ -353,7 +354,7 @@ ul {
   color: var(--paper);
 }
 .button-dark:hover {
-  background: #6d5100;
+  background: #303030;
 }
 .hero-note {
   display: flex;
@@ -380,7 +381,7 @@ ul {
   font-size: 12px;
 }
 .service-strip svg {
-  color: #8c6600;
+  color: #101010;
 }
 .section {
   padding-block: 96px;
@@ -415,7 +416,7 @@ ul {
     border-color 0.2s;
 }
 .service-card > svg:first-child {
-  color: #8c6600;
+  color: #101010;
   margin-bottom: 28px;
 }
 .service-card h3 {
@@ -465,7 +466,7 @@ ul {
   color: #ffffff;
 }
 .final-cta .button-primary:hover {
-  background: #6d5100;
+  background: #303030;
 }
 .service-card .card-arrow {
   position: absolute;
@@ -496,7 +497,7 @@ ul {
   color: #eeeeee;
 }
 .service-card.featured > svg:first-child {
-  color: #d9a514;
+  color: #ffdf00;
 }
 .services-grid .service-card:last-child {
   grid-column: span 2;
@@ -555,7 +556,7 @@ ul {
   padding-bottom: 0;
 }
 .reasons svg {
-  color: #8c6600;
+  color: #101010;
 }
 .reasons h3 {
   font-size: 17px;
@@ -679,7 +680,7 @@ ul {
 .review-stars {
   display: flex;
   gap: 3px;
-  color: #a86d00;
+  color: #101010;
   margin: 24px 0 15px;
 }
 .review-card blockquote {
@@ -715,7 +716,7 @@ ul {
   margin: 23px 0;
 }
 .regions-grid .text-link {
-  color: #e4b62d;
+  color: #fff04a;
 }
 .region-list li {
   border-bottom: 1px solid #ffffff26;
@@ -726,11 +727,11 @@ ul {
   font-size: 15px;
 }
 .region-list li svg:first-child {
-  color: #d9a514;
+  color: #ffdf00;
 }
 .region-list li svg:last-child {
   margin-left: auto;
-  color: #d9a514;
+  color: #ffdf00;
 }
 .location-grid {
   display: grid;
@@ -757,7 +758,7 @@ ul {
 }
 .location-panel > svg {
   grid-column: span 2;
-  color: #8c6600;
+  color: #101010;
 }
 .location-panel h3 {
   font-size: 27px;
@@ -825,7 +826,7 @@ ul {
 }
 .faq-list summary span {
   font-size: 21px;
-  color: #8c6600;
+  color: #101010;
   font-weight: 400;
   transition: transform 0.2s;
 }
@@ -838,7 +839,7 @@ ul {
   padding: 0 30px 24px 0;
 }
 .final-cta {
-  background: #fff0aa;
+  background: #fff5a3;
   padding-block: 64px;
 }
 .final-inner {
@@ -977,7 +978,7 @@ ul {
   gap: 8px;
 }
 .service-emblem svg {
-  color: #d9a514;
+  color: #ffdf00;
 }
 .service-emblem span {
   font-family: var(--heading);
@@ -1009,7 +1010,7 @@ ul {
   font-size: 14px;
 }
 .check-list svg {
-  color: #8c6600;
+  color: #101010;
   margin-top: 3px;
 }
 .prose p {
@@ -1090,7 +1091,7 @@ ul {
 }
 .regions-content .region-list svg {
   margin-top: 5px;
-  color: #8c6600;
+  color: #101010;
 }
 .regions-content .prose {
   grid-column: 2;
@@ -1104,7 +1105,7 @@ ul {
   gap: 40px;
 }
 .contact-grid article > svg {
-  color: #8c6600;
+  color: #101010;
   margin-bottom: 20px;
 }
 .contact-grid h2 {
@@ -1171,7 +1172,7 @@ ul {
   display: block;
   font-family: var(--heading);
   font-size: 24px;
-  color: #8c6600;
+  color: #101010;
   margin-bottom: 20px;
 }
 .not-found .contact-buttons {

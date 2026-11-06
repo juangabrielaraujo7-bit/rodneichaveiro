@@ -4,11 +4,11 @@ description: Interface técnica e local baseada na imagem aprovada pelo respons�
 colors:
   ink: "#101010"
   charcoal: "#202020"
-  yellow: "#D9A514"
+  yellow: "#FFDF00"
   paper: "#F7F7F7"
   muted: "#626262"
   line: "#D5D5D5"
-  accessible-accent: "#8C6600"
+  accessible-accent: "#101010"
 typography:
   display:
     fontFamily: "Manrope Variable, sans-serif"
@@ -47,7 +47,7 @@ A direção normativa é a imagem rodnei-home-conceito-03.png, aprovada pelo usu
 
 ## Colors
 
-Preto e carvão sustentam as áreas escuras; branco técnico dá respiro. Amarelo queimado indica contato e formas de apoio. O tom acessível de apoio é usado para detalhes e links sobre branco. O cinza secundário é ajustado para manter legibilidade; os retratos e fotografias preservam cores naturais. O logo original permanece intacto.
+Preto e carvão sustentam as áreas escuras; branco técnico dá respiro. Amarelo vivo de sinalização (#FFDF00) indica contato e formas de apoio, conforme revisão solicitada pelo usuário. Links e detalhes sobre branco usam preto para preservar contraste e eliminar o aspecto dourado. O cinza secundário é ajustado para manter legibilidade; os retratos e fotografias preservam cores naturais. O logo original permanece intacto.
 
 ## Typography
 
@@ -67,13 +67,13 @@ Botões em cápsula de 48 px; círculos e curvas grandes com função de composi
 
 ## Components
 
-O hero usa o personagem fictício aprovado, com identificação ilustrativa no site. Serviços são cards com ícone, descrição e link para a página correspondente. As avaliações preservam os três autores e textos fornecidos, em colunas sem caixas. Menu móvel, contatos fixos, FAQ nativo e foco visível são mantidos. Transições respeitam movimento reduzido.
+O hero usa o personagem fictício aprovado, com identificação ilustrativa no site. Serviços são cards com imagem realista, descrição e link para a página correspondente. As avaliações preservam os três autores e textos fornecidos, em colunas sem caixas. Menu móvel, contatos fixos, FAQ nativo e foco visível são mantidos. Transições respeitam movimento reduzido.
 
 ## Do's and Don'ts
 
 - Do seguir a composição e as proporções da direção 03.
 - Do manter contatos, fontes reais e a natureza ilustrativa dos retratos explícitos.
-- Don't restaurar azul e amarelo vivo das propostas anteriores.
+- Do usar amarelo vivo de alerta; não retomar o amarelo queimado ou dourado nas cores da interface.
 - Don't apresentar o personagem como sendo Rodnei nem imagens ilustrativas como trabalhos reais.
 - Don't adicionar garantias, médias de avaliações ou prazos sem confirmação.
 

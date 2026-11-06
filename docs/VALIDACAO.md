@@ -60,3 +60,7 @@ GA4 e Search Console estão preparados por variáveis; não há IDs do propriet�
 ## Atualização: cards e Google Maps — 06/11/2026
 
 `npm run verify` aprovado (lint, TypeScript, testes e build). `npm run test:e2e`: 3 testes aprovados em 35,4 s, cobrindo as 16 páginas, navegação, contatos, acessibilidade e larguras de 360 a 1440 px. Inspeção visual dos cards e da localização em desktop e celular. O iframe carregou o Google Maps com marcador na Rua Dr. Elviro Carrilho, 309; capturas locais em `.impeccable/review/location-desktop.png` e `location-mobile.png`.
+
+## Amarelo vivo de alerta — 06/11/2026
+
+Interface alterada para #FFDF00, com hover #FFF04A e texto #101010 (contraste medido de 14,32:1). Links sobre branco usam preto; foco de teclado combina preto e amarelo para se destacar em fundos claros e escuros. Build aprovado; três testes de navegador aprovados em 37,0 s, incluindo acessibilidade das 16 páginas e telas de 360 a 1440 px. Capturas desktop e celular conferidas visualmente.
