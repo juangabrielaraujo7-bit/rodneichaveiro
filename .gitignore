@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+.env*
+!.env.example
+.vercel/
+*.tsbuildinfo
+playwright-report/
+test-results/
+docs/old-*
+rodnei_logo_final.zip
+public/brand/*.png
+!public/brand/apple-touch-icon.png
+.impeccable/review/
