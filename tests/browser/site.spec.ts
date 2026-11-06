@@ -128,6 +128,7 @@ test("responsive layouts, mobile navigation, FAQ and screenshots", async ({
         animations: "disabled",
       });
       await page.locator('#servicos').screenshot({path:`.impeccable/review/services-${width===1440?'desktop':'mobile'}.png`,animations:'disabled',style:'.site-header,.mobile-contact,.skip-link{visibility:hidden!important}'});
+      await page.locator('#avaliacoes').screenshot({path:`.impeccable/review/reviews-${width===1440?'desktop':'mobile'}.png`,animations:'disabled',style:'.site-header,.mobile-contact,.skip-link{visibility:hidden!important}'});
     }
   }
   await page.setViewportSize({ width: 390, height: 844 });

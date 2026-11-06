@@ -2,9 +2,9 @@
 
 ## Material ainda necessário
 
-- Fotografia real do Rodnei ou da empresa, autorizada para o hero. A demonstração usa a marca oficial; não apresenta uma foto de banco como trabalho próprio.
+- Fotografia real do Rodnei ou da empresa, caso desejada no hero. A composição atual usa imagens ilustrativas de fechadura e chave automotiva geradas por IA; não apresenta uma foto de banco como trabalho próprio.
 - Fotos reais de trabalhos, com autorização, serviço e legenda. A seção atual direciona ao Instagram oficial e não simula uma galeria.
-- Avaliações reais com autor, texto, data e fonte verificável. A seção atual leva ao perfil Google, sem inventar notas ou depoimentos.
+- Links individuais ou capturas completas das avaliações, caso o responsável queira publicar os textos atualmente ocultos por “Mais”. As três avaliações fornecidas já estão na home; ver `docs/AVALIACOES.md`.
 - História profissional e informações empresariais que o responsável queira publicar. Não foram inventados anos de experiência, certificações ou volumes.
 - Detalhes de modelos e limitações dos serviços. As sete páginas usam as categorias do briefing, serviços tradicionais e informações do site antigo; a oferta específica deve ser conferida pelo responsável antes de liberar indexação.
 - Horário de presença no endereço, se diferente do atendimento 24 horas. A visita é orientada por contato prévio.

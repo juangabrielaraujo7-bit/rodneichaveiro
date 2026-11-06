@@ -1,5 +1,9 @@
 # Validação — 6 de novembro de 2026
 
+## Avaliações e novo topo
+
+Três avaliações de cinco estrelas foram transcritas das capturas fornecidas pelo usuário, com identificação dos trechos incompletos e sem nota média geral inventada. O monograma grande do hero foi substituído por composição de fechadura e chave automotiva, a chamada ficou mais curta e o título móvel foi ajustado para 38 px. Build, lint, TypeScript e três testes unitários de publicação aprovados. A rodada final de navegador passou seus três cenários em 33,8 segundos, cobrindo as 16 páginas e as capturas próprias de avaliações em computador e celular. A fonte e os limites da transcrição estão em `docs/AVALIACOES.md`.
+
 ## Revisão visual: azul, amarelo e imagens dos serviços
 
 O usuário escolheu azul e amarelo e autorizou ilustrações geradas por IA. Sete originais PNG tiveram o canal alpha verificado; sete versões WebP foram geradas para o site, preservando transparência, com aproximadamente 59–114 KB cada. Build, lint, TypeScript e testes de publicação passaram após a implementação. A conferência de navegador identificou um link amarelo com contraste de 4,41:1 sobre azul; o tom desse texto foi clareado antes da confirmação final. Os resultados Lighthouse abaixo pertencem à versão inicial e não devem ser apresentados como uma medição nova da revisão visual.
@@ -41,7 +45,7 @@ A nota SEO é reduzida pelo bloqueio intencional de indexação da demonstraçã
 
 ## Limites da entrega
 
-GA4 e Search Console estão preparados por variáveis; não há IDs do proprietário para comprovar coleta ou verificação reais. A Vercel abriu no login, portanto não houve criação de projeto, conexão de deploy automático nem URL pública validada. Fotos e avaliações autênticas não foram fornecidas. Há documentação para concluir essas etapas sem inventar informações.
+GA4 e Search Console estão preparados por variáveis; não há IDs do proprietário para comprovar coleta ou verificação reais. A Vercel abriu no login, portanto não houve criação de projeto, conexão de deploy automático nem URL pública validada. Fotos próprias continuam pendentes; as três avaliações fornecidas posteriormente pelo usuário já estão implementadas. Há documentação para concluir as demais etapas sem inventar informações.
 
 ## Como reproduzir
 

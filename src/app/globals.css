@@ -240,6 +240,73 @@ ul {
 }
 .hero h1 span {
   color: #1453dd;
+  display: block;
+}
+.hero-visual {
+  position: relative;
+  min-height: 470px;
+  isolation: isolate;
+}
+.hero-visual-backdrop {
+  position: absolute;
+  inset: 22px 0 45px 20px;
+  background: #e6efff;
+  border-radius: 16px;
+  z-index: -1;
+}
+.hero-lock,
+.hero-car-key {
+  position: absolute;
+  object-fit: contain;
+  filter: drop-shadow(0 18px 14px #14274725);
+}
+.hero-lock {
+  width: 79%;
+  height: 390px;
+  left: -7%;
+  top: -10px;
+}
+.hero-car-key {
+  width: 48%;
+  height: 250px;
+  right: -1%;
+  top: 116px;
+  transform: rotate(8deg);
+}
+.hero-hours {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 15px 20px;
+  background: var(--blue);
+  color: #fff;
+  border-radius: 6px;
+}
+.hero-hours svg {
+  color: var(--yellow);
+}
+.hero-hours strong {
+  display: block;
+  font-size: 12px;
+}
+.hero-hours span {
+  display: block;
+  font-size: 10px;
+  color: #e2ebff;
+}
+.hero-visual-caption {
+  position: absolute;
+  bottom: 0;
+  left: 44px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.hero-visual-caption strong {
+  color: var(--ink);
+  font-weight: 600;
 }
 .hero-copy > p {
   font-size: 16px;
@@ -295,69 +362,6 @@ ul {
   font-size: 11px;
   color: var(--muted);
   margin-top: 21px;
-}
-.brand-panel {
-  background: var(--blue);
-  color: var(--paper);
-  min-height: 490px;
-  position: relative;
-  border-radius: 2px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 25px 28px 34px;
-}
-.brand-panel-top {
-  display: flex;
-  justify-content: space-between;
-  font-size: 9px;
-  letter-spacing: 0.09em;
-  color: #dce7ff;
-}
-.brand-panel-top span:first-child {
-  letter-spacing: 0.17em;
-}
-.hero-symbol {
-  width: 330px;
-  align-self: center;
-  margin: 0;
-}
-.brand-panel-bottom {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-family: var(--heading);
-  font-size: 21px;
-  line-height: 1.4;
-  font-weight: 400;
-}
-.brand-panel-bottom svg {
-  color: var(--accent);
-}
-.availability {
-  display: flex;
-  align-items: center;
-  gap: 13px;
-  position: absolute;
-  bottom: -25px;
-  right: 24px;
-  padding: 15px 21px;
-  background: #fff;
-  color: var(--ink);
-  box-shadow: 0 9px 25px #1e1e220c;
-}
-.availability svg {
-  color: #1453dd;
-}
-.availability strong {
-  font-size: 12px;
-  display: block;
-  font-weight: 600;
-}
-.availability span {
-  display: block;
-  color: var(--muted);
-  font-size: 10px;
 }
 .service-strip {
   border-block: 1px solid var(--line);
@@ -462,9 +466,6 @@ ul {
 }
 .final-cta .button-primary:hover {
   background: #0e3dae;
-}
-.brand-panel-bottom svg {
-  color: var(--yellow);
 }
 .service-card .card-arrow {
   position: absolute;
@@ -624,22 +625,77 @@ ul {
 .about-home .text-link {
   margin-top: 18px;
 }
-.google-section {
-  border-block: 1px solid var(--line);
+.reviews-section {
+  padding-block: 55px 96px;
+  border-top: 1px solid var(--line);
+}
+.reviews-section .section-heading p {
+  margin-top: 18px;
+  font-size: 14px;
+}
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+.review-card {
+  margin: 0;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 28px;
   display: flex;
-  gap: 45px;
-  justify-content: space-between;
+  flex-direction: column;
+}
+.review-card figcaption {
+  display: flex;
   align-items: center;
-  padding-block: 52px;
-  margin-bottom: 96px;
+  gap: 12px;
 }
-.google-section h2 {
-  font-size: 32px;
+.review-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 42px;
+  height: 42px;
+  background: #e6efff;
+  color: var(--blue);
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 600;
 }
-.google-section p {
-  font-size: 13px;
-  max-width: 430px;
-  margin-top: 15px;
+.review-card figcaption strong {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+}
+.review-card figcaption div > span {
+  display: block;
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 2px;
+}
+.review-stars {
+  display: flex;
+  gap: 3px;
+  color: #a86d00;
+  margin: 24px 0 15px;
+}
+.review-card blockquote {
+  margin: 0;
+}
+.review-card blockquote p {
+  color: var(--ink);
+  font-size: 14px;
+  line-height: 1.85;
+}
+.review-excerpt {
+  display: block;
+  color: var(--muted);
+  font-size: 10px;
+  margin-top: auto;
+  padding-top: 20px;
 }
 .regions-section {
   background: var(--blue);
@@ -1153,31 +1209,10 @@ ul {
   color: var(--paper);
   border-color: var(--ink);
 }
-@media (min-width: 1024px) and (prefers-reduced-motion: no-preference) {
-  .hero-symbol {
-    animation: brand-arrival 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
-  }
-  @keyframes brand-arrival {
-    from {
-      transform: translateY(12px);
-      filter: blur(3px);
-    }
-    to {
-      transform: translateY(0);
-      filter: blur(0);
-    }
-  }
-}
 @media (min-width: 1500px) {
   .hero {
     padding-top: 80px;
     padding-bottom: 100px;
-  }
-  .brand-panel {
-    min-height: 540px;
-  }
-  .hero-symbol {
-    width: 365px;
   }
 }
 @media (max-width: 1150px) {
@@ -1206,15 +1241,6 @@ ul {
   .hero .button {
     padding: 14px;
     font-size: 12px;
-  }
-  .brand-panel {
-    min-height: 460px;
-  }
-  .brand-panel-top {
-    font-size: 8px;
-  }
-  .hero-symbol {
-    width: 290px;
   }
   .difference-grid,
   .regions-grid,
@@ -1274,23 +1300,6 @@ ul {
   .hero .contact-buttons {
     flex-direction: column;
     align-items: flex-start;
-  }
-  .brand-panel {
-    min-height: 465px;
-    padding-inline: 22px;
-  }
-  .brand-panel-top span:last-child {
-    display: none;
-  }
-  .hero-symbol {
-    width: 280px;
-  }
-  .brand-panel-bottom {
-    font-size: 19px;
-  }
-  .availability {
-    right: 15px;
-    padding: 14px;
   }
   .service-strip > .container {
     display: grid;
@@ -1364,6 +1373,56 @@ ul {
   }
 }
 @media (max-width: 640px) {
+  .hero-visual {
+    min-height: 315px;
+  }
+  .hero-visual-backdrop {
+    inset: 16px 0 45px;
+    border-radius: 12px;
+  }
+  .hero-lock {
+    width: 75%;
+    height: 265px;
+    left: -6%;
+    top: 5px;
+  }
+  .hero-car-key {
+    width: 46%;
+    height: 185px;
+    right: 0;
+    top: 70px;
+  }
+  .hero-hours {
+    padding: 10px 12px;
+    gap: 8px;
+  }
+  .hero-hours strong {
+    font-size: 10px;
+  }
+  .hero-hours span {
+    font-size: 9px;
+  }
+  .hero-hours svg {
+    width: 20px;
+  }
+  .hero-visual-caption {
+    left: 20px;
+    bottom: 0;
+    font-size: 12px;
+  }
+  .reviews-section {
+    padding-block: 40px 65px;
+  }
+  .reviews-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .reviews-section .section-heading .button {
+    margin-top: 24px;
+  }
+  .review-card {
+    padding: 24px;
+  }
   .service-image-wrap,
   .services-grid .service-card:last-child .service-image-wrap {
     height: 230px;
@@ -1407,7 +1466,7 @@ ul {
     align-items: stretch;
   }
   .hero h1 {
-    font-size: 42px;
+    font-size: 38px;
     max-width: 360px;
     line-height: 1.15;
   }
@@ -1436,42 +1495,6 @@ ul {
   .hero-note {
     font-size: 10px;
     margin-top: 17px;
-  }
-  .brand-panel {
-    min-height: 315px;
-    padding: 20px 22px 26px;
-  }
-  .hero-symbol {
-    width: 218px;
-    position: absolute;
-    left: 50%;
-    top: 39px;
-    transform: translateX(-50%);
-  }
-  .brand-panel-top {
-    font-size: 8px;
-  }
-  .brand-panel-top span:last-child {
-    display: block;
-  }
-  .brand-panel-bottom {
-    margin-top: auto;
-    font-size: 16px;
-  }
-  .availability {
-    right: 14px;
-    bottom: -20px;
-    padding: 11px 14px;
-    gap: 9px;
-  }
-  .availability svg {
-    width: 21px;
-  }
-  .availability strong {
-    font-size: 10px;
-  }
-  .availability span {
-    font-size: 9px;
   }
   .service-strip > .container {
     padding-block: 20px;
@@ -1591,20 +1614,6 @@ ul {
   .about-home p {
     font-size: 13px;
     margin-top: 18px;
-  }
-  .google-section {
-    display: block;
-    padding-block: 35px;
-    margin-bottom: 65px;
-  }
-  .google-section h2 {
-    font-size: 29px;
-  }
-  .google-section p {
-    font-size: 13px;
-  }
-  .google-section .button {
-    margin-top: 25px;
   }
   .regions-section {
     padding-block: 60px;

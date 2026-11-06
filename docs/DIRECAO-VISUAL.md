@@ -1,21 +1,19 @@
 # Direção aplicada
 
-Revisão atual: o usuário solicitou cores mais animadas e escolheu **azul e amarelo**. Interface em azul #1453DD e amarelo #FFD32C sobre fundos claros frios; o logotipo original permanece preservado. Cards e páginas de serviços usam objetos fotorealistas gerados por IA, com transparência real e tratamento de flutuação. São imagens ilustrativas, identificadas na interface, e não registros de trabalhos do Rodnei. O manifesto de imagens contém todos os prompts e a origem. As referências de marfim/grafite abaixo descrevem a primeira versão e foram substituídas na interface pela nova escolha.
-
-Identidade já definida pelo briefing e pelos SVGs fornecidos. Não há nova proposta de marca nem composição gerada por IA. A autonomia técnica e visual foi concedida explicitamente pelo usuário; o desenvolvimento segue diretamente em código.
+A interface segue a combinação **azul e amarelo** escolhida pelo usuário: azul #1453DD, amarelo #FFD32C, texto #142747 e superfícies claras frias. Os logotipos originais fornecidos foram preservados. Manrope conduz títulos e Inter atende textos e controles.
 
 ## Primeira tela
 
-Fundo marfim; navegação discreta; à esquerda o H1 local com atendimento 24 horas, explicação curta e contatos; à direita um painel grafite com o monograma original e a disponibilidade. O painel é uma aplicação da marca, não uma fotografia ou prova de serviço. Ele será substituído por fotografia real autorizada quando fornecida. Em celular, leitura e contatos vêm antes do painel e há contato fixo inferior.
+O topo apresenta o H1 “Chaveiro na Freguesia do Ó. 24 horas.”, uma explicação curta e botões diretos de WhatsApp e telefone. A composição principal usa imagens transparentes de fechadura e chave automotiva, substituindo o monograma grande a pedido do usuário. São ilustrações de produtos geradas por IA, não registros de trabalhos nem equipamentos comprovadamente pertencentes à empresa. No celular, leitura e contato vêm antes da imagem e a barra inferior mantém os contatos disponíveis.
 
-## Linguagem
+## Serviços e confiança
 
-Manrope em títulos, Inter na leitura; latão sem brilho; ícones Lucide com traço consistente; divisórias finas; seções alternadas de fundo claro, neutro e grafite. Cards de serviços foram pedidos no briefing e levam diretamente à página individual. As seções de região e localização apresentam endereços e bairros reais, sem mapa desenhado ou coordenadas inventadas.
+Os cards de serviços usam objetos fotorealistas com recorte transparente e sombra suave. O manifesto de imagens registra origem e prompts. Os cards levam às páginas individuais. A seção de avaliações apresenta três relatos de cinco estrelas fornecidos pelo responsável em capturas do Google, com autoria e indicação de trecho quando o texto está cortado. Não há nota média geral inventada, datas deduzidas nem complementação de trechos ocultos.
 
-## Interação
+## Interação e legibilidade
 
-Uma chegada breve do monograma apenas no desktop. Botões mudam a superfície no hover; links indicam navegação; FAQ nativo abre sem hidratação extra. Reduced motion desativa animações. O foco deve ficar visível e a barra móvel deve preservar acesso ao conteúdo.
+Ícones Lucide consistentes, divisórias finas, foco visível e mudanças suaves de superfície. Os objetos dos serviços sobem levemente no hover; movimento reduzido é respeitado. O FAQ usa elementos nativos. As informações de endereço e bairros vêm dos dados confirmados.
 
-## Limites conhecidos
+## Material futuro
 
-Sem fotos, galeria e depoimentos autênticos disponíveis, as seções levam aos perfis oficiais. O hero não cumpre a etapa de fotografia real até o recebimento do material. Não há alegações de tempo de experiência, nota, garantia ou prazo de chegada.
+Fotos reais de trabalhos continuam pendentes. O Instagram oficial permanece como caminho para conhecer o trabalho. Uma fotografia autorizada do profissional ou da empresa poderá ser incorporada futuramente, caso o responsável deseje.

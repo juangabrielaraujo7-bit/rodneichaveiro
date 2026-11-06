@@ -11,6 +11,7 @@ colors:
   line: "#D3DFF3"
   soft-surface: "#EAF1FF"
   yellow-hover: "#FFE16B"
+  rating-gold: "#A86D00"
 typography:
   display:
     fontFamily: "Manrope Variable, sans-serif"
@@ -35,6 +36,7 @@ typography:
     fontWeight: 600
     lineHeight: 1.3
 rounded:
+  review: "12px"
   button: "4px"
   service: "5px"
 spacing:
@@ -87,7 +89,7 @@ Um branco frio é a superfície principal; azul atende seções de destaque e o 
 
 ## Typography
 
-Manrope conduz títulos; Inter atende leitura, navegação e controles. Ambas são servidas pelo build via Fontsource. O corpo mantém medida máxima de 66 caracteres. A home usa título de 42 px no celular; páginas internas ajustam seus títulos ao espaço disponível. Não aplicar essas medidas ao texto incorporado nos logotipos fornecidos.
+Manrope conduz títulos; Inter atende leitura, navegação e controles. Ambas são servidas pelo build via Fontsource. O corpo mantém medida máxima de 66 caracteres. A home usa título de 38 px no celular; páginas internas ajustam seus títulos ao espaço disponível. Não aplicar essas medidas ao texto incorporado nos logotipos fornecidos.
 
 ## Layout
 
@@ -103,9 +105,11 @@ Botões discretamente arredondados; cards quase retos. Linhas de 1 px definem se
 
 ## Components
 
+O topo usa composição de imagens transparentes de fechadura e chave automotiva sobre superfície azul clara. A seção de avaliações tem três colunas no desktop e uma no celular, com autoria, estrelas, transcrição e indicação de trecho. Os cards de avaliação usam raio de 12 px e texto de 14 px.
+
 Botões principais têm fundo amarelo, texto escuro e altura mínima de 52 px. Os secundários usam borda, e a variante escura acompanha fundos claros. Hover altera superfície em 0,2 s; foco usa contorno de 2 px, deslocado 5 px.
 
-Cards de serviços são links completos, com imagem de produto realista e transparente, título, texto e seta. O primeiro é azul. As imagens são ilustrativas, não trabalhos comprovados; o hover eleva levemente o objeto. Navegação tem sublinhado animado por transformação; no celular há menu recolhível e barra fixa de contatos. FAQ usa `details`/`summary` nativos. O monograma tem uma chegada de 0,8 s somente no desktop; `prefers-reduced-motion` desativa movimentos.
+Cards de serviços são links completos, com imagem de produto realista e transparente, título, texto e seta. O primeiro é azul. As imagens são ilustrativas, não trabalhos comprovados; o hover eleva levemente o objeto. Navegação tem sublinhado animado por transformação; no celular há menu recolhível e barra fixa de contatos. FAQ usa `details`/`summary` nativos. `prefers-reduced-motion` desativa movimentos.
 
 ## Do's and Don'ts
 

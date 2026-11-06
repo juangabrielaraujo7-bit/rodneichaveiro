@@ -15,6 +15,7 @@ import {
   ServiceCard,
 } from "@/components/ui";
 import { company, homeFaq, regions, services } from "@/lib/content";
+import { Reviews } from "@/components/reviews";
 export default function Home() {
   return (
     <>
@@ -22,17 +23,12 @@ export default function Home() {
         <div className="hero-copy">
           <h1>
             Chaveiro na
-            <br className="desktop-break" /> Freguesia do Ó<br />
-            <span>
-              com atendimento
-              <br className="desktop-break" /> 24 horas.
-            </span>
+            <br className="desktop-break" /> Freguesia do Ó.
+            <span>24 horas.</span>
           </h1>
           <p>
-            Para a sua casa. Para o seu carro.
-            <br />
-            Serviços de chaveiro com atendimento na Freguesia do Ó e bairros
-            próximos.
+            Perdeu a chave? Ficou para fora? Fale com o Rodnei para atendimento
+            residencial ou automotivo na Freguesia do Ó e região.
           </p>
           <ContactButtons />
           <div className="hero-note">
@@ -40,34 +36,38 @@ export default function Home() {
             Na Vila Albertina, perto de você.
           </div>
         </div>
-        <div className="brand-panel">
-          <div className="brand-panel-top">
-            <span>RODNEI CHAVEIRO</span>
-            <span>São Paulo · SP</span>
-          </div>
+        <div className="hero-visual">
+          <span className="hero-visual-backdrop" aria-hidden="true" />
           <Image
-            className="hero-symbol"
-            src="/brand/simbolo-r-marfim.svg"
-            alt="Monograma R do Rodnei Chaveiro, com detalhe de fechadura em latão"
-            width={400}
-            height={400}
+            className="hero-lock"
+            src="/images/services/troca-de-fechaduras.webp"
+            alt="Imagem ilustrativa de fechadura e chave residencial"
+            width={800}
+            height={800}
+            sizes="(max-width: 640px) 66vw, 420px"
             priority
           />
-          <div className="brand-panel-bottom">
-            <span>
-              O cuidado começa
-              <br />
-              no primeiro contato.
-            </span>
-            <ArrowUpRight size={28} strokeWidth={1} aria-hidden="true" />
-          </div>
-          <div className="availability">
+          <Image
+            className="hero-car-key"
+            src="/images/services/chaveiro-automotivo.webp"
+            alt="Imagem ilustrativa de chave automotiva"
+            width={800}
+            height={800}
+            sizes="(max-width:640px) 44vw, 240px"
+            priority
+          />
+          <div className="hero-hours">
             <Clock3 size={25} strokeWidth={1.4} aria-hidden="true" />
             <div>
               <strong>Atendimento 24 horas</strong>
-              <span>Chame quando precisar.</span>
+              <span>Para sua casa e seu carro.</span>
             </div>
           </div>
+          <p className="hero-visual-caption">
+            Chaves e fechaduras.
+            <br />
+            <strong>Um contato aqui no bairro.</strong>
+          </p>
         </div>
       </section>
       <div className="service-strip">
@@ -212,29 +212,7 @@ export default function Home() {
           </Link>
         </div>
       </section>
-      <section className="google-section container">
-        <div>
-          <h2>
-            Confira as avaliações
-            <br />
-            no Google.
-          </h2>
-          <p>
-            Consulte o perfil da empresa e leia os relatos dos clientes
-            diretamente na plataforma.
-          </p>
-        </div>
-        <a
-          href={company.maps}
-          className="button button-outline"
-          target="_blank"
-          rel="noopener noreferrer"
-          data-conversion="maps_click"
-          data-source="reviews"
-        >
-          Ver perfil no Google <ArrowUpRight size={18} aria-hidden="true" />
-        </a>
-      </section>
+      <Reviews />
       <section className="regions-section">
         <div className="container regions-grid">
           <div>

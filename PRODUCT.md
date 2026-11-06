@@ -15,6 +15,8 @@ Usar os arquivos originais de rodnei_logo_final.zip. Grafite #1E1E22, marfim #F7
 
 Atualização solicitada pelo usuário: interface com cores mais vivas, na combinação **azul e amarelo**, mantendo o logotipo original. Imagens de produtos realistas, sem fundo e com aparência flutuante, geradas por IA para ilustrar os serviços. Não representam trabalhos executados nem equipamentos comprovadamente pertencentes ao Rodnei.
 ## Evidence on Hand
-Logos vetoriais fornecidos; endereço e contatos no briefing. Ausentes: fotos próprias autorizadas, história detalhada e avaliações verificáveis. O site antigo é fonte secundária, sujeito a confirmação.
+Logos vetoriais fornecidos; endereço e contatos no briefing; três avaliações fornecidas em capturas de tela. Ausentes: fotos próprias autorizadas e história detalhada. O site antigo é fonte secundária, sujeito a confirmação.
+
+Atualização: o usuário forneceu capturas de três avaliações Google de cinco estrelas (Kauane Ferreira, kethelyn larissa e João Lima), autorizando sua inclusão. Publicar somente o texto visível, sem deduzir datas ou nota média geral. O usuário também pediu melhoria do topo e da imagem principal; o monograma grande foi substituído por composição ilustrativa de produtos, preservando a marca no cabeçalho.
 ## Product Principles
 Contato acessível; fatos verificáveis; páginas úteis por serviço; sem páginas geográficas em massa; demonstração sem indexação.
