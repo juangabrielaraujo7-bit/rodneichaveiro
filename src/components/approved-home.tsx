@@ -10,6 +10,7 @@ import {
 } from "lucide-react";
 import { ContactButtons, FaqList } from "./ui";
 import { Reviews } from "./reviews";
+import { ServiceCarousel } from "./service-carousel";
 import { company, homeFaq, regions, services } from "@/lib/content";
 function Wave({ fill }: { fill: string }) {
   return (
@@ -70,7 +71,7 @@ export default function ApprovedHome() {
       <section className="concept-services light-surface" id="servicos">
         <div className="concept-container">
           <h2>Serviços para casa e carro.</h2>
-          <div className="home-service-cards">
+          <ServiceCarousel>
             {services.map((s) => {
               return (
                 <Link
@@ -90,13 +91,13 @@ export default function ApprovedHome() {
                   <h3>{s.name}</h3>
                   <p>{s.short}</p>
                   <span className="home-service-card-action">
-                    Conhecer o serviço{" "}
+                    Conhecer o serviço
                     <ArrowRight size={16} aria-hidden="true" />
                   </span>
                 </Link>
               );
             })}
-          </div>
+          </ServiceCarousel>
         </div>
         <Wave fill="#202020" />
       </section>

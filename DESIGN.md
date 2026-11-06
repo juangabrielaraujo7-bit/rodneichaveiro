@@ -55,7 +55,7 @@ Manrope em títulos; Inter no conteúdo. Hero de 56 px no desktop, reduzido a 47
 
 ## Layout
 
-Contêiner de 1160 px, cabeçalho de 80 px e hero de aproximadamente 570 px. Desktop em duas colunas; celular empilha texto, contato e retrato. Os sete serviços aparecem em cards clicáveis: quatro colunas no desktop, duas em telas intermediárias e uma no celular, conforme ajuste solicitado pelo usuário. Curvas vetoriais simples fazem transições entre superfícies. Quebras principais: 1100, 800 e 640 px. Links dos sete serviços, FAQ e conteúdo original permanecem acessíveis.
+Contêiner de 1160 px, cabeçalho de 80 px e hero de aproximadamente 570 px. Desktop em duas colunas; celular empilha texto, contato e retrato. Os sete serviços aparecem em carrossel horizontal compacto, com imagens, título, descrição e link, conforme a referência Capucho enviada pelo usuário. Quatro cards no desktop, três ou dois em telas intermediárias e um card com prévia do próximo no celular. Altura mínima de 330 px no desktop e 325 px no celular; setas de 44 px, deslize e rolagem nativa, sem avanço automático. Curvas vetoriais simples fazem transições entre superfícies. Quebras principais: 1100, 800 e 640 px. Links dos sete serviços, FAQ e conteúdo original permanecem acessíveis.
 
 ## Elevation & Depth
 

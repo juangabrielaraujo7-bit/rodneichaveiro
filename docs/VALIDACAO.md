@@ -64,3 +64,7 @@ GA4 e Search Console estão preparados por variáveis; não há IDs do propriet�
 ## Amarelo vivo de alerta — 06/11/2026
 
 Interface alterada para #FFDF00, com hover #FFF04A e texto #101010 (contraste medido de 14,32:1). Links sobre branco usam preto; foco de teclado combina preto e amarelo para se destacar em fundos claros e escuros. Build aprovado; três testes de navegador aprovados em 37,0 s, incluindo acessibilidade das 16 páginas e telas de 360 a 1440 px. Capturas desktop e celular conferidas visualmente.
+
+## Serviços compactos no formato da referência Capucho — 06/11/2026
+
+Cards em faixa horizontal com setas, imagens realistas e links. Medidas conferidas: 277 × 330 px em tela de 1440 px e 280 × 325 px no celular de 390 px. Testados avanço, retorno, limites do carrossel e navegação no celular; sem rolagem horizontal da página e sem violações Axe na seção. Verificação completa aprovada e três testes gerais de navegador aprovados em 38,8 s. Ajuste final do alinhamento confirmado no navegador.
