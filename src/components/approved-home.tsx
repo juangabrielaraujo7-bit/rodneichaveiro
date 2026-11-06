@@ -104,7 +104,7 @@ export default function ApprovedHome() {
       <section className="concept-emergency dark-surface">
         <div className="concept-container emergency-grid">
           <span className="outline-hours" aria-hidden="true">
-            24H
+            <span className="neon-hours-sign">24H</span>
           </span>
           <div>
             <h2>Imprevistos não escolhem hora.</h2>

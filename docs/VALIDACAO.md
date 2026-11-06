@@ -68,3 +68,7 @@ Interface alterada para #FFDF00, com hover #FFF04A e texto #101010 (contraste me
 ## Serviços compactos no formato da referência Capucho — 06/11/2026
 
 Cards em faixa horizontal com setas, imagens realistas e links. Medidas conferidas: 277 × 330 px em tela de 1440 px e 280 × 325 px no celular de 390 px. Testados avanço, retorno, limites do carrossel e navegação no celular; sem rolagem horizontal da página e sem violações Axe na seção. Verificação completa aprovada e três testes gerais de navegador aprovados em 38,8 s. Ajuste final do alinhamento confirmado no navegador.
+
+## Plaquinha neon 24H — 06/11/2026
+
+Destaque 24H com fundo escuro, moldura iluminada e brilho amarelo estático em CSS. Build aprovado; inspeção visual em desktop e celular e checagem de ausência de rolagem horizontal em 360, 390, 768 e 1440 px.
