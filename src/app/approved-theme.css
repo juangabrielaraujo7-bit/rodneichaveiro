@@ -1,0 +1,958 @@
+/* Direction approved in rodnei-home-conceito-03.png. */
+:root {
+  --ink: #101010;
+  --paper: #f7f7f7;
+  --yellow: #d9a514;
+  --blue: #8c6600;
+  --accent: #8c6600;
+  --muted: #626262;
+  --line: #d5d5d5;
+}
+.final-cta {
+  background: #202020;
+  color: #f7f7f7;
+}
+.final-cta h2 span {
+  color: inherit;
+}
+.final-cta p {
+  color: #dedede;
+}
+.final-cta .button-primary {
+  background: #d9a514;
+  color: #101010;
+}
+.final-cta .button-primary:hover {
+  background: #e4b62d;
+}
+.final-cta .button-outline {
+  color: #fff;
+  border-color: #aaa;
+}
+.topbar {
+  display: none;
+}
+.site-header {
+  background: #101010;
+  color: #f7f7f7;
+  border-color: #303030;
+}
+.header-inner {
+  height: 80px;
+  max-width: 1160px;
+}
+.header-logo {
+  width: 190px;
+}
+.desktop-nav {
+  font-size: 13px;
+  gap: 25px;
+}
+.header-phone {
+  background: #d9a514;
+  color: #101010;
+  padding: 10px 18px;
+  border-radius: 28px;
+  font-size: 13px;
+}
+.header-phone svg {
+  color: #101010;
+}
+.menu-button {
+  color: #fff;
+}
+.mobile-menu {
+  background: #101010;
+  border-color: #444;
+}
+.desktop-nav a::after {
+  background: #d9a514;
+}
+.button {
+  border-radius: 28px;
+  padding: 14px 22px;
+  min-height: 48px;
+}
+.button-primary {
+  background: #d9a514;
+  color: #101010;
+}
+.button-primary:hover {
+  background: #e4b62d;
+}
+.button-outline {
+  border-color: #999;
+}
+.button-dark {
+  background: #101010;
+  color: #fff;
+}
+.text-link {
+  color: inherit;
+}
+.site-footer {
+  background: #101010;
+}
+.footer-grid {
+  padding-bottom: 32px;
+}
+.site-footer .footer-grid {
+  max-width: 1160px;
+}
+.footer-grid > div > img {
+  width: 190px;
+}
+.footer-grid h3 {
+  color: #fff;
+}
+.footer-grid p,
+.footer-grid a,
+.footer-bottom {
+  color: #d5d5d5;
+}
+.footer-bottom {
+  border-color: #393939;
+}
+.mobile-contact {
+  background: #101010;
+  border-color: #444;
+}
+.mobile-contact a {
+  color: #f7f7f7;
+  border-color: #888;
+}
+.mobile-contact a:last-child {
+  background: #d9a514;
+  color: #101010;
+  border-color: #d9a514;
+}
+.approved-home {
+  overflow: hidden;
+}
+.concept-container {
+  width: min(1160px, calc(100% - 80px));
+  margin: auto;
+}
+.dark-surface {
+  background: #202020;
+  color: #f7f7f7;
+  position: relative;
+}
+.light-surface {
+  background: #f7f7f7;
+  color: #101010;
+  position: relative;
+}
+.dark-surface p {
+  color: #dedede;
+}
+.approved-home h2 {
+  font-size: 34px;
+  line-height: 1.2;
+  letter-spacing: -0.035em;
+  font-weight: 750;
+}
+.approved-home h2 span {
+  color: inherit;
+}
+.section-wave {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 48px;
+  pointer-events: none;
+  z-index: 3;
+  display: block;
+}
+.concept-hero {
+  background: #202020;
+}
+.concept-hero-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 45px;
+  min-height: 570px;
+  align-items: center;
+}
+.concept-hero-copy {
+  padding: 36px 0 75px;
+  z-index: 2;
+}
+.concept-hero h1 {
+  font-size: 56px;
+  font-weight: 780;
+  line-height: 1.13;
+  letter-spacing: -0.035em;
+  max-width: 630px;
+}
+.concept-hero h1 span {
+  color: #d9a514;
+  display: inline;
+}
+.concept-hero-copy > p {
+  font-size: 16px;
+  line-height: 1.65;
+  margin: 25px 0 30px;
+  max-width: 450px;
+}
+.dark-surface .button-outline {
+  color: #fff;
+  border-color: #ddd;
+  background: transparent;
+}
+.dark-surface .button-outline:hover {
+  background: #383838;
+}
+.concept-trust {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+  margin-top: 28px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.concept-trust span {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.concept-trust svg {
+  width: 16px;
+  height: 16px;
+  color: #d9a514;
+}
+.concept-person {
+  position: relative;
+  height: 490px;
+  align-self: end;
+}
+.person-circle {
+  position: absolute;
+  left: 8%;
+  top: 35px;
+  width: 87%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: #d9a514;
+}
+.concept-person > img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+  z-index: 1;
+}
+.concept-services {
+  padding: 65px 0 90px;
+}
+.editorial-services {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 42px;
+}
+.editorial-services > a {
+  padding: 0 28px;
+  border-right: 1px solid #ccc;
+}
+.editorial-services > a:first-child {
+  padding-left: 0;
+}
+.editorial-services > a:last-child {
+  border: 0;
+  padding-right: 0;
+}
+.editorial-services > a > svg {
+  color: #101010;
+  margin-bottom: 17px;
+}
+.editorial-services h3 {
+  font-size: 19px;
+  line-height: 1.2;
+  font-weight: 750;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.editorial-services h3 svg {
+  color: #8c6600;
+  flex-shrink: 0;
+}
+.editorial-services p {
+  font-size: 13px;
+  line-height: 1.7;
+  color: #555;
+  max-width: 25ch;
+}
+.editorial-services > a:hover h3 {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.more-services {
+  display: flex;
+  gap: 28px;
+  flex-wrap: wrap;
+  margin-top: 32px;
+  padding-top: 22px;
+  border-top: 1px solid #ddd;
+}
+.more-services a {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 12px;
+  min-height: 28px;
+}
+.more-services a:hover {
+  text-decoration: underline;
+}
+.more-services svg {
+  color: #8c6600;
+}
+.concept-emergency {
+  padding: 45px 0 85px;
+}
+.emergency-grid {
+  display: grid;
+  grid-template-columns: 310px 1fr;
+  gap: 60px;
+  align-items: center;
+}
+.outline-hours {
+  font: 750 125px/1 var(--heading);
+  letter-spacing: -0.045em;
+  color: transparent;
+  -webkit-text-stroke: 1.5px #d9a514;
+  border-right: 1px solid #888;
+  padding-right: 40px;
+}
+.emergency-grid h2 {
+  font-size: 32px;
+}
+.emergency-grid p {
+  font-size: 15px;
+  margin: 15px 0 22px;
+}
+.concept-emergency .button-outline {
+  display: none;
+}
+.concept-feature {
+  padding: 45px 0 85px;
+}
+.feature-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 95px;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+.feature-yellow {
+  position: absolute;
+  top: 0;
+  left: -120px;
+  width: 460px;
+  height: 330px;
+  border-radius: 0 0 80% 0;
+  background: #d9a514;
+}
+.automotive-photo {
+  width: 350px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+}
+.automotive-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.feature-grid p {
+  font-size: 16px;
+  margin: 24px 0;
+}
+.concept-about {
+  padding: 40px 0 58px;
+}
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  align-items: center;
+}
+.about-grid p {
+  font-size: 15px;
+  line-height: 1.85;
+  margin: 24px 0 8px;
+}
+.about-portrait {
+  margin: 0;
+  justify-self: center;
+  position: relative;
+}
+.about-portrait-circle {
+  width: 340px;
+  height: 340px;
+  background: #dfdfdf;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.about-portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: bottom;
+}
+.about-portrait figcaption {
+  font-size: 10px;
+  color: #d0d0d0;
+  text-align: center;
+  margin-top: 7px;
+}
+.concept-reviews {
+  padding: 30px 0 35px;
+}
+.concept-reviews .reviews-section {
+  max-width: 1160px;
+  width: calc(100% - 80px);
+  border: 0;
+  padding: 30px 0 65px;
+}
+.concept-reviews .section-heading {
+  display: block;
+  margin-bottom: 34px;
+}
+.concept-reviews h2 {
+  font-size: 32px;
+}
+.concept-reviews h2 br {
+  display: none;
+}
+.concept-reviews .section-heading p {
+  font-size: 13px;
+  margin-top: 14px;
+}
+.concept-reviews .section-heading > .button {
+  margin-top: 18px;
+  padding: 0;
+  min-height: 30px;
+  border: 0;
+  border-radius: 0;
+  font-size: 12px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.concept-reviews .reviews-grid {
+  gap: 0;
+}
+.concept-reviews .review-card {
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  padding: 0 28px;
+  border-right: 1px solid #ccc;
+}
+.concept-reviews .review-card:first-child {
+  padding-left: 0;
+}
+.concept-reviews .review-card:last-child {
+  padding-right: 0;
+  border-right: 0;
+}
+.concept-reviews .review-avatar {
+  display: none;
+}
+.concept-reviews .review-stars {
+  order: -1;
+  color: #8c6600;
+  margin: 0 0 12px;
+  gap: 2px;
+}
+.concept-reviews .review-card figcaption {
+  margin-bottom: 14px;
+}
+.concept-reviews .review-card blockquote p {
+  font-size: 13px;
+  line-height: 1.8;
+}
+.concept-reviews .review-card figcaption div > span {
+  font-size: 10px;
+}
+.concept-reviews .review-excerpt {
+  padding-top: 15px;
+  font-size: 10px;
+}
+.concept-regions {
+  padding: 45px 0 80px;
+}
+.concept-regions h2 {
+  font-size: 32px;
+}
+.concept-regions ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 0;
+  margin-top: 28px;
+}
+.concept-regions li {
+  font-size: 14px;
+  padding: 0 30px;
+  border-right: 1px solid #d9a514;
+}
+.concept-regions li:first-child {
+  padding-left: 0;
+}
+.concept-regions li:last-child {
+  border: 0;
+}
+.concept-regions .text-link {
+  font-size: 12px;
+  margin-top: 18px;
+}
+.concept-location {
+  padding: 45px 0 85px;
+}
+.concept-location .concept-container > svg {
+  display: none;
+}
+.concept-location h2 {
+  font-size: 28px;
+}
+.concept-location p {
+  font-size: 15px;
+  margin: 12px 0 22px;
+}
+.concept-faq {
+  padding: 25px 0 45px;
+}
+.concept-faq .concept-container {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 65px;
+}
+.concept-faq h2 {
+  font-size: 28px;
+}
+.concept-faq .faq-list {
+  margin: 0;
+}
+.concept-faq details {
+  border-color: #555;
+}
+.concept-faq summary {
+  font-size: 13px;
+  padding: 16px 0;
+}
+.concept-faq summary span {
+  color: #d9a514;
+}
+.concept-faq .faq-list p {
+  color: #ddd;
+}
+.concept-final {
+  padding: 40px 0 50px;
+  overflow: hidden;
+}
+.concept-final .concept-container {
+  position: relative;
+  z-index: 1;
+}
+.concept-final h2 {
+  font-size: 40px;
+  max-width: 650px;
+}
+.closing-contacts {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+.closing-contacts .button-outline {
+  display: none;
+}
+.closing-phone {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  font-family: var(--heading);
+  font-size: 22px;
+  font-weight: 700;
+  border-left: 1px solid #aaa;
+  padding-left: 30px;
+}
+.concept-final .concept-container > p {
+  font-size: 10px;
+  color: #d0d0d0;
+  margin-top: 26px;
+}
+.final-circle {
+  position: absolute;
+  width: 490px;
+  height: 490px;
+  right: -220px;
+  top: 0;
+  background: #d9a514;
+  border-radius: 50%;
+}
+@media (max-width: 1100px) {
+  .concept-hero h1 {
+    font-size: 47px;
+  }
+  .concept-hero-grid {
+    gap: 20px;
+    min-height: 520px;
+  }
+  .concept-person {
+    height: 445px;
+  }
+  .editorial-services > a {
+    padding: 0 20px;
+  }
+  .feature-grid,
+  .about-grid {
+    gap: 45px;
+  }
+  .emergency-grid {
+    grid-template-columns: 260px 1fr;
+    gap: 40px;
+  }
+  .outline-hours {
+    font-size: 105px;
+  }
+  .concept-container {
+    width: calc(100% - 64px);
+  }
+  .concept-reviews .reviews-section {
+    width: calc(100% - 64px);
+  }
+}
+@media (max-width: 800px) {
+  .concept-hero h1 {
+    font-size: 41px;
+  }
+  .concept-hero .contact-buttons {
+    flex-direction: column;
+    align-items: start;
+  }
+  .concept-person {
+    height: 400px;
+  }
+  .concept-hero-grid {
+    gap: 10px;
+  }
+  .concept-hero-copy > p {
+    font-size: 14px;
+  }
+  .concept-trust {
+    gap: 12px;
+    font-size: 10px;
+  }
+  .automotive-photo {
+    width: 290px;
+  }
+  .about-portrait-circle {
+    width: 290px;
+    height: 290px;
+  }
+  .approved-home h2 {
+    font-size: 29px;
+  }
+  .editorial-services {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px 0;
+  }
+  .editorial-services > a:nth-child(3) {
+    padding-left: 0;
+  }
+  .editorial-services > a:nth-child(2) {
+    border: 0;
+  }
+  .feature-grid {
+    gap: 35px;
+  }
+  .concept-reviews .review-card {
+    padding: 0 18px;
+  }
+  .concept-faq .concept-container {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  .concept-faq .faq-list {
+    margin: 0;
+  }
+  .emergency-grid {
+    grid-template-columns: 180px 1fr;
+    gap: 30px;
+  }
+  .outline-hours {
+    font-size: 80px;
+    padding-right: 20px;
+  }
+  .concept-regions li {
+    padding: 0 18px;
+  }
+}
+@media (max-width: 640px) {
+  .header-inner {
+    height: 70px;
+  }
+  .header-logo {
+    width: 170px;
+  }
+  .concept-container {
+    width: calc(100% - 40px);
+  }
+  .concept-hero-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    min-height: 0;
+  }
+  .concept-hero-copy {
+    padding: 35px 0 15px;
+    width: 100%;
+  }
+  .concept-hero h1 {
+    font-size: 38px;
+    max-width: 390px;
+  }
+  .wide-break {
+    display: none;
+  }
+  .concept-hero-copy > p {
+    margin: 20px 0 24px;
+    font-size: 14px;
+    max-width: 335px;
+  }
+  .concept-hero .contact-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 9px;
+  }
+  .concept-hero .button {
+    padding: 13px 9px;
+    font-size: 11px;
+    min-height: 46px;
+  }
+  .concept-hero .button-primary > svg:last-child {
+    display: none;
+  }
+  .concept-trust {
+    margin-top: 22px;
+    font-size: 11px;
+    gap: 17px;
+  }
+  .concept-person {
+    height: 330px;
+    width: 300px;
+    align-self: center;
+    margin-top: 5px;
+  }
+  .person-circle {
+    width: 83%;
+    left: 9%;
+    top: 30px;
+  }
+  .section-wave {
+    height: 28px;
+  }
+  .concept-services {
+    padding: 35px 0 60px;
+  }
+  .approved-home h2 {
+    font-size: 28px;
+  }
+  .editorial-services {
+    margin-top: 30px;
+    gap: 30px 0;
+  }
+  .editorial-services > a {
+    padding: 0 15px;
+  }
+  .editorial-services h3 {
+    font-size: 17px;
+    gap: 6px;
+  }
+  .editorial-services p {
+    font-size: 12px;
+  }
+  .editorial-services h3 svg {
+    display: none;
+  }
+  .more-services {
+    gap: 10px 20px;
+    margin-top: 28px;
+    padding-top: 17px;
+  }
+  .more-services a {
+    font-size: 11px;
+  }
+  .concept-emergency {
+    padding: 30px 0 60px;
+  }
+  .emergency-grid {
+    display: flex;
+    gap: 24px;
+    align-items: start;
+  }
+  .outline-hours {
+    font-size: 64px;
+    min-width: 120px;
+    padding-right: 15px;
+  }
+  .emergency-grid h2 {
+    font-size: 23px;
+  }
+  .emergency-grid p {
+    font-size: 12px;
+    margin: 12px 0 18px;
+  }
+  .concept-emergency .button {
+    font-size: 11px;
+    padding: 12px 14px;
+    min-height: 44px;
+  }
+  .concept-emergency .button > svg:last-child {
+    display: none;
+  }
+  .concept-feature {
+    padding: 35px 0 60px;
+  }
+  .feature-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .automotive-photo {
+    width: 270px;
+  }
+  .feature-yellow {
+    width: 300px;
+    height: 270px;
+    left: -85px;
+  }
+  .feature-grid p {
+    font-size: 14px;
+    margin: 18px 0 22px;
+  }
+  .feature-grid > div:last-child {
+    padding: 0 5px;
+  }
+  .concept-about {
+    padding: 30px 0 50px;
+  }
+  .about-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: start;
+  }
+  .about-grid p {
+    font-size: 13px;
+    margin: 18px 0 6px;
+  }
+  .about-portrait {
+    align-self: center;
+  }
+  .about-portrait-circle {
+    width: 270px;
+    height: 270px;
+  }
+  .concept-reviews {
+    padding: 10px 0 20px;
+  }
+  .concept-reviews .reviews-section {
+    width: calc(100% - 40px);
+    padding: 25px 0 45px;
+  }
+  .concept-reviews .section-heading {
+    margin-bottom: 26px;
+  }
+  .concept-reviews h2 {
+    font-size: 27px;
+  }
+  .concept-reviews .reviews-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  .concept-reviews .review-card,
+  .concept-reviews .review-card:first-child,
+  .concept-reviews .review-card:last-child {
+    padding: 0 0 25px;
+    border-right: 0;
+    border-bottom: 1px solid #ccc;
+  }
+  .concept-reviews .review-card:last-child {
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+  .concept-reviews .review-card blockquote p {
+    font-size: 13px;
+  }
+  .concept-reviews .review-card figcaption {
+    margin-bottom: 12px;
+  }
+  .concept-regions {
+    padding: 30px 0 55px;
+  }
+  .concept-regions ul {
+    gap: 14px 0;
+    margin-top: 22px;
+  }
+  .concept-regions li {
+    font-size: 12px;
+    padding: 0 14px;
+  }
+  .concept-regions li:nth-child(4) {
+    padding-left: 0;
+  }
+  .concept-location {
+    padding: 30px 0 60px;
+  }
+  .concept-location h2 {
+    font-size: 25px;
+  }
+  .concept-location p {
+    font-size: 13px;
+  }
+  .concept-faq {
+    padding: 25px 0 30px;
+  }
+  .concept-faq h2 {
+    font-size: 26px;
+  }
+  .concept-final {
+    padding: 25px 0 40px;
+  }
+  .concept-final h2 {
+    font-size: 32px;
+    max-width: 280px;
+  }
+  .closing-contacts {
+    gap: 20px;
+  }
+  .closing-phone {
+    border: 0;
+    padding: 0;
+    font-size: 20px;
+  }
+  .final-circle {
+    width: 300px;
+    height: 300px;
+    right: -230px;
+  }
+  .concept-final .concept-container > p {
+    font-size: 9px;
+    max-width: 230px;
+  }
+  .footer-grid {
+    gap: 28px 20px;
+  }
+  .site-footer {
+    padding-top: 35px;
+  }
+}

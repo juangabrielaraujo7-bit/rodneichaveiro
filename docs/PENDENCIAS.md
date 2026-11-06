@@ -2,7 +2,7 @@
 
 ## Material ainda necessário
 
-- Fotografia real do Rodnei ou da empresa, caso desejada no hero. A composição atual usa imagens ilustrativas de fechadura e chave automotiva geradas por IA; não apresenta uma foto de banco como trabalho próprio.
+- Fotografia real do Rodnei ou da empresa, caso desejada no hero. A direção aprovada usa um profissional fictício gerado por IA e identificado como ilustrativo; não o apresenta como sendo Rodnei.
 - Fotos reais de trabalhos, com autorização, serviço e legenda. A seção atual direciona ao Instagram oficial e não simula uma galeria.
 - Links individuais ou capturas completas das avaliações, caso o responsável queira publicar os textos atualmente ocultos por “Mais”. As três avaliações fornecidas já estão na home; ver `docs/AVALIACOES.md`.
 - História profissional e informações empresariais que o responsável queira publicar. Não foram inventados anos de experiência, certificações ou volumes.

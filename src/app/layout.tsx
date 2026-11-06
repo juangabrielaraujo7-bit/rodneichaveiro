@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "@fontsource-variable/manrope";
 import "@fontsource-variable/inter";
 import "./globals.css";
+import "./approved-theme.css";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { Analytics } from "@/components/analytics";
@@ -27,7 +28,7 @@ export const metadata: Metadata = {
   icons: { icon: "/brand/favicon.svg", apple: "/brand/apple-touch-icon.png" },
 };
 export const viewport: Viewport = {
-  themeColor: "#1453DD",
+  themeColor: "#101010",
   width: "device-width",
   initialScale: 1,
 };

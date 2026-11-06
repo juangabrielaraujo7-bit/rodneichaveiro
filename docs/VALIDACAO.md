@@ -1,5 +1,11 @@
 # Validação — 6 de novembro de 2026
 
+## Implementação do conceito aprovado 03
+
+Home reconstruída a partir da referência aprovada, arquivada em `docs/reference/home-approved.png`: preto, branco e amarelo queimado, retrato ilustrativo, curvas, serviços editoriais e proporções menores. Imagens originais geradas separadamente e otimizadas em WebP. Build, lint, TypeScript e três testes de proteção da publicação passaram. Primeira rodada de navegador: três cenários aprovados em 37,3 s, com 16 páginas, links, contatos, acessibilidade e cinco larguras sem overflow. As capturas desktop e mobile foram comparadas visualmente com a direção aprovada. Os resultados Lighthouse das versões anteriores abaixo são históricos, não uma nova medição desta implementação.
+
+Confirmação sobre o build final: os três cenários Playwright passaram em 32,4 s, incluindo as páginas internas após o ajuste dos CTAs para a nova paleta. Não houve violações automáticas de acessibilidade nos critérios cobertos.
+
 ## Avaliações e novo topo
 
 Três avaliações de cinco estrelas foram transcritas das capturas fornecidas pelo usuário, com identificação dos trechos incompletos e sem nota média geral inventada. O monograma grande do hero foi substituído por composição de fechadura e chave automotiva, a chamada ficou mais curta e o título móvel foi ajustado para 38 px. Build, lint, TypeScript e três testes unitários de publicação aprovados. A rodada final de navegador passou seus três cenários em 33,8 segundos, cobrindo as 16 páginas e as capturas próprias de avaliações em computador e celular. A fonte e os limites da transcrição estão em `docs/AVALIACOES.md`.

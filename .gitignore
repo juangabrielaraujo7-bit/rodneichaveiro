@@ -12,3 +12,4 @@ rodnei_logo_final.zip
 public/brand/*.png
 !public/brand/apple-touch-icon.png
 .impeccable/review/
+output/design-concepts/

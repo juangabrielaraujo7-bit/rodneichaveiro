@@ -1,5 +1,7 @@
 # Rodnei Chaveiro — Freguesia do Ó
 
+Direção visual atual: `rodnei-home-conceito-03.png`, aprovada pelo responsável e implementada com preto, branco e amarelo queimado. A home está em `src/components/approved-home.tsx`, e a camada visual em `src/app/approved-theme.css`. Imagens novas em `public/images/approved/`, com originais em `assets/approved/`. Os retratos são ilustrativos, gerados por IA. Consulte `docs/DIRECAO-APROVADA.md`.
+
 Website em Next.js App Router, TypeScript e Tailwind CSS. Marca original fornecida pelo responsável. Conteúdo principal renderizado no servidor e páginas de serviços pré-renderizadas.
 
 ## Executar

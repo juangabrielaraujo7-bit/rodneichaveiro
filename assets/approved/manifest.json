@@ -1,0 +1,11 @@
+{
+  "generator": "OpenAI image_gen integrada",
+  "reference": "docs/reference/home-approved.png",
+  "approvedByUser": true,
+  "peopleAreIllustrative": true,
+  "assets": [
+    {"file":"hero-professional.png","web":"/images/approved/hero-professional.webp","description":"Personagem fictício do conceito, em pé segurando cilindro, recorte transparente."},
+    {"file":"about-professional.png","web":"/images/approved/about-professional.webp","description":"Mesmo personagem fictício, retrato com braços apoiados, recorte transparente."},
+    {"file":"automotive-work.png","web":"/images/approved/automotive-work.webp","description":"Veículo cinza estacionado, porta e retrovisor, fotografia ilustrativa sem pessoas ou intervenção em fechaduras."}
+  ]
+}

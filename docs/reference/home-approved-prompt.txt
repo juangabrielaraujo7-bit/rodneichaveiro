@@ -1,0 +1,25 @@
+Edit the attached homepage concept into a realistic, implementation-ready DESKTOP WEBSITE SCREENSHOT. Preserve its brand, original logo, black / charcoal / muted mustard yellow / white palette, same fictional locksmith model, broad organic curves, content and nine-section narrative. This is the next precise design version, not a moodboard.
+
+CRITICAL CHANGE: the current design's person, headings, icons and graphic shapes are all oversized and crowded. Reduce their relative sizes substantially. Recompose for a REAL 1440px-wide desktop site with a centered 1160px content grid and approximately 140px side margins, rather than a narrow poster scaled up. Output a tall complete page, ideally 1440 x 3600, with desktop proportions and the whole footer visible. No browser frame, device mockup, perspective or outer decorative border.
+
+Think CSS-realistic scale: header height 80px; small logo about 190px wide; nav 14px; button height 48px. Hero section 590–640px high including appropriate padding, two balanced columns. Hero title approximately 56px on a 1440px desktop, Manrope bold 750, not enormous ultra-black display lettering. Body text 16px, comfortable line height, 420px measure. Person occupies only the right column, about 400px tall, fully contained in the hero, never towering beyond it or overlapping service text. Let the restrained mustard circle sit BEHIND the person and fully within the right visual area. Increase breathing room around ALL elements. Keep the shapes broad and asymmetric, but reduce their scale and intrusion by around 35%. No person or circle should collide with the next section.
+
+Hero title: "Chaveiro 24h na Freguesia do Ó." In natural mixed case and roughly three balanced lines, with "24h" in mustard. Subtitle "Atendimento residencial e automotivo na Freguesia do Ó e região." Buttons "Chamar no WhatsApp" and "Ligar agora". Micro labels "24 horas • Automotivo • Residencial". Same friendly fictional charcoal-uniformed locksmith on right, holding a door cylinder naturally.
+
+Services section white, 90px vertical padding, four open editorial columns with thin dividers. Section heading approximately 34px, "Serviços para casa e carro." Icons only 24–28px. Titles 19px. "Abertura de portas", "Chaveiro automotivo", "Chaves codificadas", "Troca de fechadura". Short conservative descriptions, no guarantee or commercial-service claims.
+
+Emergency charcoal area approximately 290px tall, with a MODERATELY sized thin outlined "24H" about 115px (not gigantic), and text "Imprevistos não escolhem hora." about 34px. Supporting line "Consulte o atendimento para sua localização." Compact mustard CTA. Retain a gentle sweeping edge with ample empty space.
+
+Automotive white two-column section with photographic circular crop approximately 330px diameter, authentic hands at a car door, restrained mustard edge behind. Opposite heading "Cuidado com a chave do seu carro." 34px with comfortable width, supporting text and 48px CTA. Photo and heading should not fill their entire columns.
+
+About charcoal section with same fictional person's relaxed portrait around 320px diameter on right inside a contained curving circular field; left heading "Um contato aqui no bairro." around 34px. Copy "Rodnei Chaveiro — Freguesia do Ó." and address "Rua Dr. Elviro Carrilho, 309 • Vila Albertina". Do not make a full-height giant portrait.
+
+Reviews white section, 34px heading "Quem já precisou, conta como foi." Three open editorial columns, 15px readable quote text, small stars. Names Kauane Ferreira, kethelyn larissa, João Lima. Exact excerpts: "Profissional extremamente eficiente, rápido, caprichoso e muito competente."; "Foi muito atencioso e resolveu a situação com agilidade e segurança."; "Serviço excelente com preço honesto." Small source "Trechos de avaliações no Google". No fabricated aggregate score.
+
+Regions charcoal area, heading 32–34px "Na Freguesia do Ó e por perto." Places "Freguesia do Ó", "Vila Albertina", "Vila Palmeiras", "Vila Siqueira", "Limão". Give the place list comfortable spacing and modest 14px text.
+
+Location white area with modest 28px address "Rua Dr. Elviro Carrilho, 309", 16px supporting "Vila Albertina • São Paulo", button "Ver localização". More whitespace than decoration.
+
+Final dark CTA with heading "Precisa de um chaveiro?" around 40px, not screaming 90px; compact mustard button "CHAMAR AGORA", phone "(11) 96087-7257". Original logo small in footer. Discreet footer note "Conceito visual • profissional ilustrativo".
+
+Make it look like the actual final website could look when rendered in a desktop browser: sane type sizes, realistic spacing, balanced responsive-style grid, no condensed poster composition, no oversized drawings or UI. Keep roughly 60% dark and 40% light. Use flat #101010 #202020 #D9A514 #777777 #F7F7F7, no shiny gold or gradients. The prior design's direction is accepted; this edit only refines scale, proportions, whitespace and fidelity to a real desktop webpage.

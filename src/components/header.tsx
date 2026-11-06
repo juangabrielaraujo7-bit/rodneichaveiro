@@ -2,7 +2,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
-import { Menu, X, Phone } from "lucide-react";
+import { Menu, X, MessageCircle } from "lucide-react";
 import { usePathname } from "next/navigation";
 import { company } from "@/lib/content";
 export function Header() {
@@ -11,6 +11,7 @@ export function Header() {
   const links = [
     ["Serviços", "/#servicos"],
     ["Sobre o Rodnei", "/sobre"],
+    ["Avaliações", "/#avaliacoes"],
     ["Regiões atendidas", "/regioes-atendidas"],
     ["Contato", "/contato"],
   ];
@@ -33,7 +34,7 @@ export function Header() {
             onClick={() => setOpen(false)}
           >
             <Image
-              src="/brand/logo-horizontal-grafite-web.svg"
+              src="/brand/logo-horizontal-marfim-web.svg"
               width={224}
               height={80}
               alt="Rodnei Chaveiro — Freguesia do Ó"
@@ -54,12 +55,12 @@ export function Header() {
           </nav>
           <a
             className="header-phone"
-            href={company.tel}
-            data-conversion="phone_click"
+            href={`https://wa.me/${company.whatsapp}?text=${encodeURIComponent("Olá, encontrei o Rodnei Chaveiro pelo site e gostaria de um atendimento.")}`}
+            data-conversion="whatsapp_click"
             data-source="header"
           >
-            <Phone size={17} aria-hidden="true" />
-            {company.phone}
+            <MessageCircle size={17} aria-hidden="true" />
+            WhatsApp
           </a>
           <button
             className="menu-button"
